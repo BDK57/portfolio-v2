@@ -1,4 +1,5 @@
 import { Poppins } from 'next/font/google';
+import BlurBar from './components/BlurBar';
 import Script from 'next/script';
 import 'lenis/dist/lenis.css';
 import './tailwind.css';
@@ -45,6 +46,7 @@ export default function RootLayout({ children }) {
           {"history.scrollRestoration='manual';window.scrollTo(0,0);if(location.pathname==='/'&&!matchMedia('(prefers-reduced-motion: reduce)').matches){document.documentElement.classList.add('intro-lock');window.__introBlock||(window.__introBlock=function(e){if(e.type==='keydown'&&(e.target.closest('input,textarea')||!/^(Space|PageUp|PageDown|ArrowUp|ArrowDown|Home|End)$/.test(e.code)))return;e.preventDefault()});['wheel','touchmove','keydown'].forEach(function(t){addEventListener(t,window.__introBlock,{passive:false})})}"}
         </Script>
         {children}
+        <BlurBar />
       </body>
     </html>
   );

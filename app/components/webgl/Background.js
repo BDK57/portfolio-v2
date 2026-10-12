@@ -95,6 +95,35 @@ void main() {
 }
 `;
 
+// Extra embers that only exist while a fist is held: they stream in from just past the screen edges
+// onto the ball (densifying it) and fly back out, fading, when the hand opens.
+const ballVert = /* glsl */ `
+#define BALL_R ${BALL_R.toFixed(3)}
+attribute float aSeed;
+attribute vec3 aDir;
+attribute vec2 aEdge;   // start point just outside the screen, NDC
+uniform float uTime;
+uniform float uPx;
+uniform float uGather;
+uniform vec2 uBall;
+uniform float uAspect;
+varying float vAlpha;
+varying float vWarm;
+void main() {
+  float g = clamp(uGather * 1.5 - aSeed * 0.5, 0.0, 1.0);
+  g = g * g * (3.0 - 2.0 * g);
+  float a = uTime * 0.6;
+  vec3 d = vec3(aDir.x * cos(a) + aDir.z * sin(a), aDir.y, -aDir.x * sin(a) + aDir.z * cos(a));
+  float r = BALL_R * (0.72 + 0.28 * fract(aSeed * 7.13));
+  vec2 onBall = uBall + vec2(d.x / uAspect, d.y) * r;
+  gl_Position = vec4(mix(aEdge, onBall, g), 0.0, 1.0);
+  float front = 0.55 + 0.45 * d.z;
+  vWarm = step(0.8, aSeed);
+  vAlpha = g * (0.35 + front) * (0.6 + 0.4 * sin(uTime * (1.0 + aSeed * 3.0) + aSeed * 40.0));
+  gl_PointSize = g <= 0.001 ? 0.0 : mix(1.4, 2.8, aSeed) * (1.0 + vWarm) * uPx * (0.9 + 0.6 * front);
+}
+`;
+
 const dustFrag = /* glsl */ `
 varying float vAlpha;
 varying float vWarm;
@@ -105,7 +134,7 @@ void main() {
 }
 `;
 
-function Scene({ count, scroll, pointer }) {
+function Scene({ count, ballCount, scroll, pointer }) {
   // Materials built in code: R3F clones a `uniforms` JSX prop, which would detach per-frame updates.
   const ribbonMat = useMemo(() => new THREE.ShaderMaterial({
     vertexShader: ribbonVert, fragmentShader: ribbonFrag, depthTest: false, depthWrite: false,
@@ -117,6 +146,33 @@ function Scene({ count, scroll, pointer }) {
   }), []);
   const ribbonUniforms = ribbonMat.uniforms;
   const dustUniforms = dustMat.uniforms;
+  // Shares the dust uniforms (same objects), so both layers gather toward the same ball.
+  const ballMat = useMemo(() => {
+    const u = dustMat.uniforms;
+    return new THREE.ShaderMaterial({
+      vertexShader: ballVert, fragmentShader: dustFrag, transparent: true, depthWrite: false, depthTest: false, blending: THREE.AdditiveBlending,
+      uniforms: { uTime: u.uTime, uPx: u.uPx, uGather: u.uGather, uBall: u.uBall, uAspect: u.uAspect },
+    });
+  }, [dustMat]);
+  const ballGeometry = useMemo(() => {
+    const seed = new Float32Array(ballCount);
+    const dir = new Float32Array(ballCount * 3);
+    const edge = new Float32Array(ballCount * 2);
+    for (let i = 0; i < ballCount; i++) {
+      seed[i] = Math.random();
+      const z = Math.random() * 2 - 1, t = Math.random() * Math.PI * 2, s = Math.sqrt(1 - z * z);
+      dir.set([s * Math.cos(t), s * Math.sin(t), z], i * 3);
+      const side = Math.random() * 4 | 0, along = Math.random() * 2.4 - 1.2;
+      edge.set(side < 2 ? [side ? 1.15 : -1.15, along] : [along, side === 2 ? 1.15 : -1.15], i * 2);
+    }
+    const g = new THREE.BufferGeometry();
+    g.setAttribute('position', new THREE.BufferAttribute(new Float32Array(ballCount * 3), 3));
+    g.setAttribute('aSeed', new THREE.BufferAttribute(seed, 1));
+    g.setAttribute('aDir', new THREE.BufferAttribute(dir, 3));
+    g.setAttribute('aEdge', new THREE.BufferAttribute(edge, 2));
+    return g;
+  }, [ballCount]);
+  const ballPoints = useRef(null);
 
   const geometry = useMemo(() => {
     const pos = new Float32Array(count * 3);
@@ -146,6 +202,7 @@ function Scene({ count, scroll, pointer }) {
     // Hand control: gather toward the fist, follow the palm (both eased so tracking jitter disappears).
     const k = 1 - Math.exp(-dt * 6);
     dustUniforms.uGather.value += ((hand.active ? hand.fist : 0) - dustUniforms.uGather.value) * k;
+    if (ballPoints.current) ballPoints.current.visible = dustUniforms.uGather.value > 0.002; // costs nothing when the hand is open
     const aspect = state.size.width / state.size.height;
     dustUniforms.uAspect.value = aspect;
     if (hand.active) {
@@ -162,6 +219,7 @@ function Scene({ count, scroll, pointer }) {
         <planeGeometry args={[2, 2]} />
       </mesh>
       <points geometry={geometry} material={dustMat} frustumCulled={false} />
+      <points ref={ballPoints} geometry={ballGeometry} material={ballMat} frustumCulled={false} visible={false} />
     </>
   );
 }
@@ -192,7 +250,7 @@ export default function Background() {
       frameloop={still ? 'demand' : 'always'}
       style={{ position: 'absolute', inset: 0 }}
     >
-      <Scene count={lite ? 2000 : 8000} scroll={scroll} pointer={pointer} />
+      <Scene count={lite ? 1000 : 3200} ballCount={lite ? 1500 : 5000} scroll={scroll} pointer={pointer} />
     </Canvas>
   );
 }

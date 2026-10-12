@@ -1,8 +1,8 @@
 import { site, skills } from './content';
 
-// The live address. Set NEXT_PUBLIC_SITE_URL when you deploy to your own domain (no trailing slash),
-// or edit the fallback below. Every canonical URL, social preview and the sitemap use it.
-export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || 'https://bdk-dev-portfolio.netlify.app').replace(/\/$/, '');
+// The live address used for canonical URLs, social previews (og:image must be absolute) and the sitemap.
+// Order: NEXT_PUBLIC_SITE_URL (set this for a custom domain) → Netlify's own build-time URL → fallback.
+export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || process.env.URL || 'https://bdk-dev-portfolio.netlify.app').replace(/\/$/, '');
 
 export const SITE_TITLE = 'Hassan Khan — Frontend & Creative Developer in Karachi';
 export const SITE_DESCRIPTION =

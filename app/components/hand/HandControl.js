@@ -2,6 +2,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { tier } from '../webgl/tier';
 import { hand } from './handState';
+import FlipText from '../FlipText';
 
 /*
  * Hand control (desktop only): MediaPipe Hand Landmarker tracks one hand from the webcam, on-device.
@@ -151,7 +152,7 @@ export default function HandControl() {
         </div>
       </div>
 
-      <dialog ref={dialog} className="hand-modal" onClose={onClose} aria-labelledby="hand-title">
+      <dialog ref={dialog} className="hand-modal" onClose={onClose} aria-labelledby="hand-title" data-lenis-prevent>
         <button type="button" className="hand-modal__x" onClick={close} aria-label="Close">×</button>
         <p className="eyebrow"><span>(✦)</span> Experimental</p>
         <h2 id="hand-title" className="hand-modal__title">Move the embers with your hand</h2>
@@ -168,8 +169,8 @@ export default function HandControl() {
         {status === 'error' && <p className="hand-error" role="alert">{error}</p>}
         <div className="hand-modal__actions">
           <button type="button" className="btn" onClick={start} disabled={status === 'loading'}>
-            <span className="btn__icon"><HandIcon /></span>
-            <span>{status === 'loading' ? 'Starting…' : 'Enable camera'}</span>
+            <span className="btn__icon" data-no-tilt><HandIcon /></span>
+            {status === 'loading' ? <span>Starting…</span> : <FlipText text="Enable camera" />}
           </button>
           <button type="button" className="hand-modal__later" onClick={close}>Not now</button>
         </div>
