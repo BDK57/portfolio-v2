@@ -1,0 +1,8 @@
+/* Tailwind utilities for the Componentry components in components/ui only.
+   No preflight (the site has its own base styles) and no auto-scan of the site's own class names. */
+@layer theme, base, components, utilities;
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities) source(none);
+@source "./components/ui";
+/* The site is always dark: `dark:` variants apply inside any `.dark` wrapper. */
+@custom-variant dark (&:where(.dark, .dark *));
