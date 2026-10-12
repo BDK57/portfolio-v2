@@ -5,6 +5,7 @@ import Intro from './components/Intro';
 import FlipText from './components/FlipText';
 import TiltedGrid from './components/TiltedGrid';
 import Backdrop from './components/Backdrop';
+import HandControl from './components/hand/HandControl';
 import { personJsonLd } from './seo';
 import CopyEmail from './components/CopyEmail';
 import Clock from './components/Clock';
@@ -50,6 +51,7 @@ export default function Home() {
     <>
       <Backdrop />
       <Intro />
+      <HandControl />
       <Effects />
       <Nav email={site.email} />
 

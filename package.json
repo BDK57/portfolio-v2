@@ -5,10 +5,12 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "npx serve out"
+    "start": "npx serve out",
+    "check:gestures": "node scripts/check-gestures.mjs"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
+    "@mediapipe/tasks-vision": "^1.1.0",
     "@react-three/drei": "^10.7.9",
     "@react-three/fiber": "^9.8.1",
     "clsx": "^2.1.1",
