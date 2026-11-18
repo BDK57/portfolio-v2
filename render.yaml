@@ -1,0 +1,46 @@
+# Render Blueprint for the Strapi admin (the website itself stays on Netlify).
+# Render → New → Blueprint → pick this repo. Secrets marked `sync: false` are asked for on first deploy.
+services:
+  - type: web
+    name: hassan-portfolio-cms
+    runtime: node
+    plan: free # sleeps after ~15 min idle; the site only reads it during Netlify builds
+    rootDir: cms
+    buildCommand: npm ci && npm run build
+    startCommand: npm run start
+    healthCheckPath: /_health
+    autoDeploy: true
+    buildFilter:
+      paths: ["cms/**"] # site-only commits don't redeploy the admin
+    envVars:
+      - key: NODE_VERSION
+        value: "22"
+      - key: NODE_ENV
+        value: production
+      # Strapi secrets: generated once by Render, never stored in the repo
+      - key: APP_KEYS
+        generateValue: true
+      - key: API_TOKEN_SALT
+        generateValue: true
+      - key: ADMIN_JWT_SECRET
+        generateValue: true
+      - key: TRANSFER_TOKEN_SALT
+        generateValue: true
+      - key: JWT_SECRET
+        generateValue: true
+      - key: ENCRYPTION_KEY
+        generateValue: true
+      # Supabase (Session pooler connection string)
+      - key: DATABASE_URL
+        sync: false
+      # Cloudflare R2
+      - key: R2_ACCOUNT_ID
+        sync: false
+      - key: R2_ACCESS_KEY_ID
+        sync: false
+      - key: R2_SECRET_ACCESS_KEY
+        sync: false
+      - key: R2_BUCKET
+        sync: false
+      - key: R2_PUBLIC_URL
+        sync: false

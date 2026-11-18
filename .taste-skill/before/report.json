@@ -1,0 +1,3782 @@
+{
+ "url": "C:/Users/BDK/AppData/Local/Temp/claude/D--Portfolio/408f49b8-58e9-4706-b6c0-c8f1fb803c07/scratchpad/site/index.html",
+ "at": "2026-10-24T12:40:26.532Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.57,
+    0.31,
+    0.6,
+    0.39,
+    0.29,
+    0.31,
+    0.2,
+    0.49,
+    0.39,
+    0.15,
+    0.22,
+    1
+   ],
+   "motion": {
+    "elements": 453,
+    "css": 6,
+    "transitions": 0,
+    "scripted": 447,
+    "videos": 1,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 12400,
+     "screens": 13.8,
+     "words": 777,
+     "img": 7,
+     "video": 1,
+     "canvas": 5,
+     "svg": 35,
+     "sections": 8,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 8,
+     "videoCount": 1,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "hero.webp",
+      "rox.webp",
+      "onic.webp",
+      "tangopay.webp",
+      "mcb.webp",
+      "cartsite.webp",
+      "passgen.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 1
+    },
+    "hero": {
+     "text": "Hassan",
+     "words": 1,
+     "chars": 6,
+     "lines": 1,
+     "size": 316.8,
+     "vw": 22,
+     "font": "Poppins",
+     "weight": 500,
+     "tracking": -0.065,
+     "leading": 1,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "center",
+     "position": "center",
+     "widthRatio": 1,
+     "top": 615,
+     "tag": "p",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Muhammad Hassan Khan, Frontend & Creative Developer based in Karachi",
+     "words": 10,
+     "lines": 4,
+     "size": 37.4,
+     "font": "Poppins"
+    },
+    "headings": [
+     {
+      "text": "Muhammad Hassan Khan, Frontend & Creative Developer based in Karachi",
+      "words": 10,
+      "chars": 68,
+      "lines": 4,
+      "size": 37.4,
+      "vw": 2.6,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.22,
+      "top": 298,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Hassan",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 316.8,
+      "vw": 22,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.065,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 1,
+      "top": 615,
+      "tag": "p",
+      "kind": "heading"
+     },
+     {
+      "text": "Crafting fast, animated & intuitive web experiences that stand out",
+      "words": 10,
+      "chars": 66,
+      "lines": 3,
+      "size": 57.6,
+      "vw": 4,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.035,
+      "leading": 1.06,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.53,
+      "top": 1164,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "My toolkit, in orbit",
+      "words": 4,
+      "chars": 20,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.035,
+      "leading": 1.06,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.85,
+      "top": 2060,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "06",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 158.4,
+      "vw": 11,
+      "font": "Poppins",
+      "weight": 300,
+      "tracking": -0.05,
+      "leading": 0.8,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.13,
+      "top": 3076,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Projects that shipped",
+      "words": 3,
+      "chars": 21,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.035,
+      "leading": 1.06,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.44,
+      "top": 3135,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "ROX",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 28.8,
+      "vw": 2,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.2,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.51,
+      "top": 4096,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "ONIC",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 28.8,
+      "vw": 2,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.2,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.51,
+      "top": 4242,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Tango Pay",
+      "words": 2,
+      "chars": 9,
+      "lines": 1,
+      "size": 28.8,
+      "vw": 2,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.51,
+      "top": 4984,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "MCB Bank",
+      "words": 2,
+      "chars": 8,
+      "lines": 1,
+      "size": 28.8,
+      "vw": 2,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.51,
+      "top": 5130,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Cartsite Survey",
+      "words": 2,
+      "chars": 15,
+      "lines": 1,
+      "size": 28.8,
+      "vw": 2,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.51,
+      "top": 5871,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Password Generator",
+      "words": 2,
+      "chars": 18,
+      "lines": 1,
+      "size": 28.8,
+      "vw": 2,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.51,
+      "top": 6018,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "What I can build for you",
+      "words": 6,
+      "chars": 24,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.035,
+      "leading": 1.06,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.85,
+      "top": 6312,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Start strong",
+      "words": 2,
+      "chars": 12,
+      "lines": 1,
+      "size": 38.4,
+      "vw": 2.7,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.03,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.22,
+      "top": 6566,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Stand out",
+      "words": 2,
+      "chars": 9,
+      "lines": 1,
+      "size": 38.4,
+      "vw": 2.7,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.03,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.22,
+      "top": 6566,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Scale up",
+      "words": 2,
+      "chars": 8,
+      "lines": 1,
+      "size": 38.4,
+      "vw": 2.7,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.03,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.22,
+      "top": 6566,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Trusted by teams, loved by clients",
+      "words": 6,
+      "chars": 34,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.035,
+      "leading": 1.06,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.85,
+      "top": 7326,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Learning never ships last",
+      "words": 4,
+      "chars": 25,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.035,
+      "leading": 1.06,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.85,
+      "top": 8243,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "BS Computer Science B S C o m p u t e r S c i e n c e B S C o m p u t e r S c i e n c e",
+      "words": 37,
+      "chars": 87,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.6,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.75,
+      "top": 8410,
+      "tag": "strong",
+      "kind": "statement"
+     },
+     {
+      "text": "Web Development W e b D e v e l o p m e n t W e b D e v e l o p m e n t",
+      "words": 30,
+      "chars": 71,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.6,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 8508,
+      "tag": "strong",
+      "kind": "statement"
+     },
+     {
+      "text": "App Development A p p D e v e l o p m e n t A p p D e v e l o p m e n t",
+      "words": 30,
+      "chars": 71,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.6,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.69,
+      "top": 8606,
+      "tag": "strong",
+      "kind": "statement"
+     },
+     {
+      "text": "JavaScript Developer J a v a S c r i p t D e v e l o p e r J a v a S c r i p t D e v e l o p e r",
+      "words": 40,
+      "chars": 96,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.6,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 8703,
+      "tag": "strong",
+      "kind": "statement"
+     },
+     {
+      "text": "Let's create something exceptional.",
+      "words": 4,
+      "chars": 35,
+      "lines": 3,
+      "size": 109.4,
+      "vw": 7.6,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.045,
+      "leading": 1.04,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.63,
+      "top": 9222,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "hssnkhn57@gmail.com h s s n k h n 5 7 @ g m a i l . c o m h s s n k h n 5 7 @ g m a i l . c o m",
+      "words": 39,
+      "chars": 95,
+      "lines": 1,
+      "size": 103.7,
+      "vw": 7.2,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.045,
+      "leading": 1.04,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 12060,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 24,
+     "maxLines": 4,
+     "over2Lines": 3,
+     "statements": 5,
+     "centered": 2,
+     "medianWords": 4,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Poppins",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      18,
+      24,
+      28,
+      29,
+      37,
+      38,
+      58,
+      64,
+      104,
+      109,
+      158,
+      317
+     ],
+     "sizeCount": 17,
+     "notLoaded": [],
+     "body": {
+      "font": "Poppins",
+      "size": 18,
+      "leading": 1.6,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 7.2
+     },
+     "measureChars": 70,
+     "max": {
+      "size": 316.8,
+      "vw": 22,
+      "font": "Poppins",
+      "text": "H"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 22,
+     "microLabelShare": 0.06,
+     "microSamples": [
+      "About",
+      "(01)",
+      "Based in",
+      "Focus",
+      "Open to",
+      "Skills"
+     ],
+     "upperShare": 0.07,
+     "centerShare": 0.03,
+     "smallText": 11
+    },
+    "eyebrows": [
+     {
+      "text": "Available for work",
+      "above": "Muhammad Hassan Khan, Frontend & Creativ",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": true,
+      "size": 12.8,
+      "top": 241
+     },
+     {
+      "text": "Skills",
+      "above": "My toolkit, in orbit",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12.8,
+      "top": 2020
+     },
+     {
+      "text": "Selected work",
+      "above": "Projects that shipped",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12.8,
+      "top": 3094
+     },
+     {
+      "text": "View project",
+      "above": "ROX",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 13.6,
+      "top": 4003
+     },
+     {
+      "text": "View project",
+      "above": "ONIC",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 13.6,
+      "top": 4164
+     },
+     {
+      "text": "View project",
+      "above": "Tango Pay",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 13.6,
+      "top": 4891
+     },
+     {
+      "text": "View project",
+      "above": "MCB Bank",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 13.6,
+      "top": 5052
+     },
+     {
+      "text": "View project",
+      "above": "Cartsite Survey",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 13.6,
+      "top": 5778
+     },
+     {
+      "text": "View project",
+      "above": "Password Generator",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 13.6,
+      "top": 5939
+     },
+     {
+      "text": "Services",
+      "above": "What I can build for you",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12.8,
+      "top": 6271
+     },
+     {
+      "text": "Landing pages",
+      "above": "Start strong",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 6539
+     },
+     {
+      "text": "Animated experiences",
+      "above": "Stand out",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 6539
+     },
+     {
+      "text": "Web applications",
+      "above": "Scale up",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 6539
+     },
+     {
+      "text": "Testimonials",
+      "above": "Trusted by teams, loved by clients",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12.8,
+      "top": 7286
+     },
+     {
+      "text": "Education",
+      "above": "Learning never ships last",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12.8,
+      "top": 8203
+     },
+     {
+      "text": "Contact",
+      "above": "Let's create something exceptional.",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12.8,
+      "top": 9162
+     }
+    ],
+    "numbered": [
+     {
+      "text": "(01)",
+      "size": 12.8,
+      "top": 1164
+     },
+     {
+      "text": "(02)",
+      "size": 12.8,
+      "top": 2020
+     },
+     {
+      "text": "(03)",
+      "size": 12.8,
+      "top": 3094
+     },
+     {
+      "text": "06",
+      "size": 158.4,
+      "top": 3076
+     },
+     {
+      "text": "(01)",
+      "size": 12.8,
+      "top": 4093
+     },
+     {
+      "text": "(02)",
+      "size": 12.8,
+      "top": 4279
+     },
+     {
+      "text": "(03)",
+      "size": 12.8,
+      "top": 4980
+     },
+     {
+      "text": "(04)",
+      "size": 12.8,
+      "top": 5167
+     },
+     {
+      "text": "(05)",
+      "size": 12.8,
+      "top": 5868
+     },
+     {
+      "text": "(06)",
+      "size": 12.8,
+      "top": 6054
+     },
+     {
+      "text": "(04)",
+      "size": 12.8,
+      "top": 6271
+     },
+     {
+      "text": "(05)",
+      "size": 12.8,
+      "top": 7286
+     }
+    ],
+    "color": {
+     "bodyBg": "#0c0b0a",
+     "bodyBgHsl": {
+      "h": 30,
+      "s": 0.09,
+      "l": 0.04
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#0c0b0a",
+       "top": 0,
+       "hsl": {
+        "h": 30,
+        "s": 0.09,
+        "l": 0.04
+       }
+      },
+      {
+       "color": "#ff6b1a",
+       "top": 12003,
+       "hsl": {
+        "h": 21,
+        "s": 1,
+        "l": 0.55
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#9d9c98",
+       "share": 0.44
+      },
+      {
+       "color": "#f3f2ef",
+       "share": 0.37
+      },
+      {
+       "color": "#141414",
+       "share": 0.11
+      },
+      {
+       "color": "#ff6b1a",
+       "share": 0.04
+      },
+      {
+       "color": "#131313",
+       "share": 0.03
+      }
+     ],
+     "button": {
+      "bg": "#ff6b1a",
+      "hsl": {
+       "h": 21,
+       "s": 1,
+       "l": 0.55
+      },
+      "fg": "#141414"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 8,
+     "inHero": 3,
+     "radius": "pill",
+     "height": 48,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Hand control",
+      "Let’s talk L e t ’ s t a l k L e t ’ s t",
+      "See my work"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 6,
+     "shadowOverlay": 1,
+     "shadowSamples": [
+      "div.tgrid__media → rgba(0, 0, 0, 0.45) 0px 24px 90px 0px",
+      "div.tgrid__media → rgba(0, 0, 0, 0.45) 0px 24px 90px 0px",
+      "div.tgrid__media → rgba(0, 0, 0, 0.45) 0px 24px 90px 0px",
+      "div.tgrid__media → rgba(0, 0, 0, 0.45) 0px 24px 90px 0px"
+     ],
+     "gradients": 3,
+     "scrims": 0,
+     "gradientSamples": [
+      "div.backdrop → radial-gradient(60% 40% at 25% 30%, rgba(255, 107, 26, 0.12), rgba(0, 0, 0, 0) 70%), radial-gradient(50% 45% a",
+      "div.hero__glow → radial-gradient(circle, rgba(255, 107, 26, 0.2), rgba(0, 0, 0, 0) 58%)",
+      "article.service.card → linear-gradient(160deg, rgb(255, 127, 48), rgb(240, 86, 10))"
+     ],
+     "gradientText": 0,
+     "hairlines": 7,
+     "hairlineSamples": [
+      "div.marquee 1440px",
+      "ul.facts 758px",
+      "li 1224px",
+      "li 1224px",
+      "li 1224px"
+     ],
+     "outlinedBoxes": 14,
+     "dashed": 0,
+     "blurred": 9,
+     "roundedBoxes": 18,
+     "boxRadius": 22,
+     "squareMedia": 4,
+     "roundedMedia": 8,
+     "mediaRadius": 22,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 3,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 6500
+      },
+      {
+       "count": 4,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 7543
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "canvas",
+      "ratio": 1
+     },
+     {
+      "type": "canvas",
+      "ratio": 1
+     },
+     {
+      "type": "canvas",
+      "ratio": 0.46
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": true,
+     "height": 56,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "poppins",
+     "poppins fallback"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 12400,
+    "margins": {
+     "left": 90,
+     "right": 51
+    },
+    "sections": [
+     {
+      "sel": "section.hero",
+      "tag": "section",
+      "top": 0,
+      "height": 900,
+      "words": 36,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Frontend & Creative Developer",
+       "size": 37,
+       "tag": "h1"
+      },
+      "left": 48,
+      "right": 51,
+      "textLeft": 48,
+      "textRight": 51,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#about.about.container",
+      "tag": "section",
+      "top": 996,
+      "height": 855,
+      "words": 72,
+      "media": 0,
+      "middle": 207,
+      "heading": {
+       "text": "Crafting",
+       "size": 58,
+       "tag": "h2"
+      },
+      "left": 108,
+      "right": 141,
+      "textLeft": 108,
+      "textRight": 141,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#skills.skills.section",
+      "tag": "section",
+      "top": 1852,
+      "height": 1056,
+      "words": 22,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "My toolkit, in orbit",
+       "size": 64,
+       "tag": "h2"
+      },
+      "left": 108,
+      "right": 708,
+      "textLeft": 108,
+      "textRight": 708,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.container.work__head",
+      "tag": "div",
+      "top": 3076,
+      "height": 199,
+      "words": 6,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Projects that shipped",
+       "size": 64,
+       "tag": "h2"
+      },
+      "left": 108,
+      "right": 695,
+      "textLeft": 108,
+      "textRight": 695,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "ul.tgrid",
+      "tag": "ul",
+      "top": 3274,
+      "height": 2661,
+      "words": 36,
+      "media": 4,
+      "middle": 115,
+      "heading": {
+       "text": "ROX",
+       "size": 29,
+       "tag": "h3"
+      },
+      "left": 0,
+      "right": 0,
+      "textLeft": -160,
+      "textRight": -4,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#services.container.section",
+      "tag": "section",
+      "top": 6103,
+      "height": 1014,
+      "words": 118,
+      "media": 0,
+      "middle": 103,
+      "heading": {
+       "text": "What I can build for you",
+       "size": 64,
+       "tag": "h2"
+      },
+      "left": 108,
+      "right": 152,
+      "textLeft": 108,
+      "textRight": 152,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#testimonials.container.section",
+      "tag": "section",
+      "top": 7118,
+      "height": 917,
+      "words": 114,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Trusted by teams, loved by clients",
+       "size": 64,
+       "tag": "h2"
+      },
+      "left": 108,
+      "right": 156,
+      "textLeft": 108,
+      "textRight": 156,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.container.section",
+      "tag": "section",
+      "top": 8035,
+      "height": 908,
+      "words": 16,
+      "media": 0,
+      "middle": 341,
+      "heading": {
+       "text": "Learning never ships last",
+       "size": 64,
+       "tag": "h2"
+      },
+      "left": 108,
+      "right": 108,
+      "textLeft": 108,
+      "textRight": 108,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.zoom.is-zoom",
+      "tag": "section",
+      "top": 8943,
+      "height": 3060,
+      "words": 10,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Let's create something",
+       "size": 109,
+       "tag": "h2"
+      },
+      "left": 415,
+      "right": 415,
+      "textLeft": 415,
+      "textRight": 415,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": true
+     },
+     {
+      "sel": "footer.finale",
+      "tag": "footer",
+      "top": 12003,
+      "height": 397,
+      "words": 17,
+      "media": 0,
+      "middle": 795,
+      "heading": null,
+      "left": 108,
+      "right": 108,
+      "textLeft": 108,
+      "textRight": 108,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 3252,
+      "height": 360
+     },
+     {
+      "top": 6916,
+      "height": 368
+     },
+     {
+      "top": 7836,
+      "height": 364
+     }
+    ],
+    "h1s": [
+     {
+      "text": "Muhammad Hassan Khan, Frontend & Creative Developer based in Karachi",
+      "size": 37,
+      "top": 298,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [
+     {
+      "text": "Frontend · Responsive",
+      "side": "right",
+      "px": 11
+     }
+    ],
+    "edges": [
+     {
+      "x": 108,
+      "n": 8
+     },
+     {
+      "x": 574,
+      "n": 3
+     },
+     {
+      "x": 48,
+      "n": 2
+     },
+     {
+      "x": 137,
+      "n": 2
+     },
+     {
+      "x": 562,
+      "n": 2
+     },
+     {
+      "x": 90,
+      "n": 1
+     },
+     {
+      "x": 448,
+      "n": 1
+     },
+     {
+      "x": 628,
+      "n": 1
+     },
+     {
+      "x": 759,
+      "n": 1
+     },
+     {
+      "x": 808,
+      "n": 1
+     },
+     {
+      "x": 855,
+      "n": 1
+     },
+     {
+      "x": 914,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 30,
+    "bodySize": 18,
+    "stage": true,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.79,
+    0.27,
+    0.82,
+    0.45,
+    0.63,
+    0.47,
+    0.67,
+    0.58,
+    0.11,
+    0.24,
+    1,
+    1
+   ],
+   "motion": {
+    "elements": 452,
+    "css": 5,
+    "transitions": 0,
+    "scripted": 447,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 12455,
+     "screens": 12.2,
+     "words": 770,
+     "img": 7,
+     "video": 0,
+     "canvas": 4,
+     "svg": 32,
+     "sections": 8,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 7,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "hero.webp",
+      "rox.webp",
+      "onic.webp",
+      "tangopay.webp",
+      "mcb.webp",
+      "cartsite.webp",
+      "passgen.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Hassan",
+     "words": 1,
+     "chars": 6,
+     "lines": 1,
+     "size": 169,
+     "vw": 22,
+     "font": "Poppins",
+     "weight": 500,
+     "tracking": -0.065,
+     "leading": 1,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "center",
+     "position": "center",
+     "widthRatio": 1,
+     "top": 872,
+     "tag": "p",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Muhammad Hassan Khan, Frontend & Creative Developer based in Karachi",
+     "words": 10,
+     "lines": 4,
+     "size": 24,
+     "font": "Poppins"
+    },
+    "headings": [
+     {
+      "text": "Hassan",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 169,
+      "vw": 22,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.065,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 1,
+      "top": 872,
+      "tag": "p",
+      "kind": "heading"
+     },
+     {
+      "text": "Crafting fast, animated & intuitive web experiences that stand out",
+      "words": 10,
+      "chars": 66,
+      "lines": 2,
+      "size": 32.3,
+      "vw": 4.2,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.035,
+      "leading": 1.06,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 1424,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "My toolkit, in orbit",
+      "words": 4,
+      "chars": 20,
+      "lines": 1,
+      "size": 38.4,
+      "vw": 5,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.035,
+      "leading": 1.06,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 2168,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "06",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 84.5,
+      "vw": 11,
+      "font": "Poppins",
+      "weight": 300,
+      "tracking": -0.05,
+      "leading": 0.8,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.13,
+      "top": 3166,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Projects that shipped",
+      "words": 3,
+      "chars": 21,
+      "lines": 1,
+      "size": 38.4,
+      "vw": 5,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.035,
+      "leading": 1.06,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.5,
+      "top": 3193,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "What I can build for you",
+      "words": 6,
+      "chars": 24,
+      "lines": 1,
+      "size": 38.4,
+      "vw": 5,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.035,
+      "leading": 1.06,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 5489,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Start strong",
+      "words": 2,
+      "chars": 12,
+      "lines": 1,
+      "size": 28.8,
+      "vw": 3.8,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.03,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.82,
+      "top": 5687,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Stand out",
+      "words": 2,
+      "chars": 9,
+      "lines": 1,
+      "size": 28.8,
+      "vw": 3.8,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.03,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.82,
+      "top": 6122,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Scale up",
+      "words": 2,
+      "chars": 8,
+      "lines": 1,
+      "size": 28.8,
+      "vw": 3.8,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.03,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.82,
+      "top": 6556,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Trusted by teams, loved by clients",
+      "words": 6,
+      "chars": 34,
+      "lines": 1,
+      "size": 38.4,
+      "vw": 5,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.035,
+      "leading": 1.06,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 7129,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Learning never ships last",
+      "words": 4,
+      "chars": 25,
+      "lines": 1,
+      "size": 38.4,
+      "vw": 5,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.035,
+      "leading": 1.06,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 8105,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Let's create something exceptional.",
+      "words": 4,
+      "chars": 35,
+      "lines": 3,
+      "size": 58.4,
+      "vw": 7.6,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.045,
+      "leading": 1.04,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.63,
+      "top": 9036,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "hssnkhn57@gmail.com h s s n k h n 5 7 @ g m a i l . c o m h s s n k h n 5 7 @ g m a i l . c o m",
+      "words": 39,
+      "chars": 95,
+      "lines": 1,
+      "size": 55.3,
+      "vw": 7.2,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.045,
+      "leading": 1.04,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 12143,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 13,
+     "maxLines": 3,
+     "over2Lines": 1,
+     "statements": 1,
+     "centered": 2,
+     "medianWords": 4,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Poppins",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      18,
+      21,
+      24,
+      29,
+      32,
+      38,
+      55,
+      58,
+      85,
+      169
+     ],
+     "sizeCount": 15,
+     "notLoaded": [],
+     "body": {
+      "font": "Poppins",
+      "size": 16,
+      "leading": 1.6,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 7.2
+     },
+     "measureChars": 70,
+     "max": {
+      "size": 169,
+      "vw": 22,
+      "font": "Poppins",
+      "text": "H"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 22,
+     "microLabelShare": 0.06,
+     "microSamples": [
+      "About",
+      "(01)",
+      "Based in",
+      "Focus",
+      "Open to",
+      "Skills"
+     ],
+     "upperShare": 0.07,
+     "centerShare": 0.02,
+     "smallText": 9
+    },
+    "eyebrows": [
+     {
+      "text": "@ The Symmetry Group",
+      "above": "Crafting fast, animated & intuitive web ",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 16,
+      "top": 1329
+     },
+     {
+      "text": "Skills",
+      "above": "My toolkit, in orbit",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12.8,
+      "top": 2128
+     },
+     {
+      "text": "Selected work",
+      "above": "Projects that shipped",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12.8,
+      "top": 3153
+     },
+     {
+      "text": "Services",
+      "above": "What I can build for you",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12.8,
+      "top": 5448
+     },
+     {
+      "text": "Landing pages",
+      "above": "Start strong",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 5660
+     },
+     {
+      "text": "Animated experiences",
+      "above": "Stand out",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 6094
+     },
+     {
+      "text": "Web applications",
+      "above": "Scale up",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 6529
+     },
+     {
+      "text": "Testimonials",
+      "above": "Trusted by teams, loved by clients",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12.8,
+      "top": 7089
+     },
+     {
+      "text": "Education",
+      "above": "Learning never ships last",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12.8,
+      "top": 8064
+     },
+     {
+      "text": "Contact",
+      "above": "Let's create something exceptional.",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12.8,
+      "top": 8963
+     }
+    ],
+    "numbered": [
+     {
+      "text": "(01)",
+      "size": 12.8,
+      "top": 1202
+     },
+     {
+      "text": "(02)",
+      "size": 12.8,
+      "top": 2128
+     },
+     {
+      "text": "(03)",
+      "size": 12.8,
+      "top": 3153
+     },
+     {
+      "text": "06",
+      "size": 84.5,
+      "top": 3166
+     },
+     {
+      "text": "(01)",
+      "size": 12.8,
+      "top": 3873
+     },
+     {
+      "text": "(02)",
+      "size": 12.8,
+      "top": 3985
+     },
+     {
+      "text": "(03)",
+      "size": 12.8,
+      "top": 4527
+     },
+     {
+      "text": "(04)",
+      "size": 12.8,
+      "top": 4634
+     },
+     {
+      "text": "(05)",
+      "size": 12.8,
+      "top": 5166
+     },
+     {
+      "text": "(06)",
+      "size": 12.8,
+      "top": 5265
+     },
+     {
+      "text": "(04)",
+      "size": 12.8,
+      "top": 5448
+     },
+     {
+      "text": "(05)",
+      "size": 12.8,
+      "top": 7089
+     }
+    ],
+    "color": {
+     "bodyBg": "#0c0b0a",
+     "bodyBgHsl": {
+      "h": 30,
+      "s": 0.09,
+      "l": 0.04
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#0c0b0a",
+       "top": 0,
+       "hsl": {
+        "h": 30,
+        "s": 0.09,
+        "l": 0.04
+       }
+      },
+      {
+       "color": "#ff6b1a",
+       "top": 12096,
+       "hsl": {
+        "h": 21,
+        "s": 1,
+        "l": 0.55
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#9d9c98",
+       "share": 0.44
+      },
+      {
+       "color": "#f3f2ef",
+       "share": 0.36
+      },
+      {
+       "color": "#141414",
+       "share": 0.11
+      },
+      {
+       "color": "#ff6b1a",
+       "share": 0.04
+      },
+      {
+       "color": "#131313",
+       "share": 0.03
+      }
+     ],
+     "button": {
+      "bg": "#ff6b1a",
+      "hsl": {
+       "h": 21,
+       "s": 1,
+       "l": 0.55
+      },
+      "fg": "#141414"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 7,
+     "inHero": 2,
+     "radius": "pill",
+     "height": 48,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Let’s talk L e t ’ s t a l k L e t ’ s t",
+      "See my work"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 6,
+     "shadowOverlay": 0,
+     "shadowSamples": [
+      "div.tgrid__media → rgba(0, 0, 0, 0.45) 0px 24px 90px 0px",
+      "div.tgrid__media → rgba(0, 0, 0, 0.45) 0px 24px 90px 0px",
+      "div.tgrid__media → rgba(0, 0, 0, 0.45) 0px 24px 90px 0px",
+      "div.tgrid__media → rgba(0, 0, 0, 0.45) 0px 24px 90px 0px"
+     ],
+     "gradients": 3,
+     "scrims": 0,
+     "gradientSamples": [
+      "div.backdrop → radial-gradient(60% 40% at 25% 30%, rgba(255, 107, 26, 0.12), rgba(0, 0, 0, 0) 70%), radial-gradient(50% 45% a",
+      "div.hero__glow → radial-gradient(circle, rgba(255, 107, 26, 0.2), rgba(0, 0, 0, 0) 58%)",
+      "article.service.card → linear-gradient(160deg, rgb(255, 127, 48), rgb(240, 86, 10))"
+     ],
+     "gradientText": 0,
+     "hairlines": 7,
+     "hairlineSamples": [
+      "div.marquee 768px",
+      "ul.facts 707px",
+      "li 707px",
+      "li 707px",
+      "li 707px"
+     ],
+     "outlinedBoxes": 13,
+     "dashed": 0,
+     "blurred": 7,
+     "roundedBoxes": 17,
+     "boxRadius": 22,
+     "squareMedia": 5,
+     "roundedMedia": 6,
+     "mediaRadius": 22,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 4,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 7287
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "canvas",
+      "ratio": 1
+     },
+     {
+      "type": "canvas",
+      "ratio": 1
+     },
+     {
+      "type": "img",
+      "ratio": 0.86
+     },
+     {
+      "type": "canvas",
+      "ratio": 0.86
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": true,
+     "height": 56,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "poppins",
+     "poppins fallback"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 12455,
+    "margins": {
+     "left": 31,
+     "right": 31
+    },
+    "sections": [
+     {
+      "sel": "section.hero",
+      "tag": "section",
+      "top": 0,
+      "height": 1024,
+      "words": 36,
+      "media": 2,
+      "middle": 209,
+      "heading": {
+       "text": "Frontend & Creative Developer",
+       "size": 24,
+       "tag": "h1"
+      },
+      "left": 31,
+      "right": 34,
+      "textLeft": 31,
+      "textRight": 34,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#about.about.container",
+      "tag": "section",
+      "top": 1110,
+      "height": 926,
+      "words": 72,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Crafting",
+       "size": 32,
+       "tag": "h2"
+      },
+      "left": 31,
+      "right": 198,
+      "textLeft": 31,
+      "textRight": 198,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#skills.skills.section",
+      "tag": "section",
+      "top": 2036,
+      "height": 1025,
+      "words": 22,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "My toolkit, in orbit",
+       "size": 38,
+       "tag": "h2"
+      },
+      "left": 31,
+      "right": 183,
+      "textLeft": 31,
+      "textRight": 183,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.container.work__head",
+      "tag": "div",
+      "top": 3153,
+      "height": 127,
+      "words": 6,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Projects that shipped",
+       "size": 38,
+       "tag": "h2"
+      },
+      "left": 31,
+      "right": 355,
+      "textLeft": 31,
+      "textRight": 355,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "ul.tgrid",
+      "tag": "ul",
+      "top": 3280,
+      "height": 1984,
+      "words": 45,
+      "media": 5,
+      "middle": 174,
+      "heading": {
+       "text": "ROX",
+       "size": 21,
+       "tag": "h3"
+      },
+      "left": 0,
+      "right": 0,
+      "textLeft": -210,
+      "textRight": -234,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "header.section-head",
+      "tag": "header",
+      "top": 5448,
+      "height": 127,
+      "words": 22,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "What I can build for you",
+       "size": 38,
+       "tag": "h2"
+      },
+      "left": 31,
+      "right": 187,
+      "textLeft": 31,
+      "textRight": 187,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.services",
+      "tag": "div",
+      "top": 5621,
+      "height": 1283,
+      "words": 96,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Start strong",
+       "size": 29,
+       "tag": "h3"
+      },
+      "left": 70,
+      "right": 187,
+      "textLeft": 70,
+      "textRight": 187,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#testimonials.container.section",
+      "tag": "section",
+      "top": 6996,
+      "height": 976,
+      "words": 114,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Trusted by teams, loved by clients",
+       "size": 38,
+       "tag": "h2"
+      },
+      "left": 31,
+      "right": 69,
+      "textLeft": 31,
+      "textRight": 69,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.container.section",
+      "tag": "section",
+      "top": 7972,
+      "height": 643,
+      "words": 16,
+      "media": 0,
+      "middle": 121,
+      "heading": {
+       "text": "Learning never ships last",
+       "size": 38,
+       "tag": "h2"
+      },
+      "left": 31,
+      "right": 31,
+      "textLeft": 31,
+      "textRight": 31,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.zoom.is-zoom",
+      "tag": "section",
+      "top": 8615,
+      "height": 3481,
+      "words": 10,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Let's create something",
+       "size": 58,
+       "tag": "h2"
+      },
+      "left": 221,
+      "right": 221,
+      "textLeft": 221,
+      "textRight": 221,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": true
+     },
+     {
+      "sel": "footer.finale",
+      "tag": "footer",
+      "top": 12096,
+      "height": 359,
+      "words": 17,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 31,
+      "right": 493,
+      "textLeft": 31,
+      "textRight": 493,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Muhammad Hassan Khan, Frontend & Creative Developer based in Karachi",
+      "size": 24,
+      "top": 457,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 31,
+      "n": 13
+     },
+     {
+      "x": 70,
+      "n": 4
+     },
+     {
+      "x": 57,
+      "n": 3
+     },
+     {
+      "x": 422,
+      "n": 3
+     },
+     {
+      "x": 103,
+      "n": 1
+     },
+     {
+      "x": 162,
+      "n": 1
+     },
+     {
+      "x": 233,
+      "n": 1
+     },
+     {
+      "x": 294,
+      "n": 1
+     },
+     {
+      "x": 363,
+      "n": 1
+     },
+     {
+      "x": 437,
+      "n": 1
+     },
+     {
+      "x": 459,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 30,
+    "bodySize": 16,
+    "stage": true,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.63,
+    0.4,
+    0.61,
+    0.63,
+    0.58,
+    0.66,
+    0.71,
+    0.57,
+    0.76,
+    0.79,
+    0.74,
+    0.53
+   ],
+   "motion": {
+    "elements": 447,
+    "css": 5,
+    "transitions": 0,
+    "scripted": 442,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 13975,
+     "screens": 16.6,
+     "words": 623,
+     "img": 7,
+     "video": 0,
+     "canvas": 4,
+     "svg": 32,
+     "sections": 8,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 7,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "hero.webp",
+      "rox.webp",
+      "onic.webp",
+      "tangopay.webp",
+      "mcb.webp",
+      "cartsite.webp",
+      "passgen.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Hassan",
+     "words": 1,
+     "chars": 6,
+     "lines": 1,
+     "size": 105.3,
+     "vw": 27,
+     "font": "Poppins",
+     "weight": 500,
+     "tracking": -0.065,
+     "leading": 1,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "center",
+     "position": "center",
+     "widthRatio": 1,
+     "top": 548,
+     "tag": "p",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Muhammad Hassan Khan, Frontend & Creative Developer based in Karachi",
+     "words": 10,
+     "lines": 4,
+     "size": 24,
+     "font": "Poppins"
+    },
+    "headings": [
+     {
+      "text": "Muhammad Hassan Khan, Frontend & Creative Developer based in Karachi",
+      "words": 10,
+      "chars": 68,
+      "lines": 4,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.51,
+      "top": 156,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Hassan",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 105.3,
+      "vw": 27,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.065,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 1,
+      "top": 548,
+      "tag": "p",
+      "kind": "heading"
+     },
+     {
+      "text": "Crafting fast, animated & intuitive web experiences that stand out",
+      "words": 10,
+      "chars": 66,
+      "lines": 4,
+      "size": 30.4,
+      "vw": 7.8,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.035,
+      "leading": 1.06,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 1226,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "My toolkit, in orbit",
+      "words": 4,
+      "chars": 20,
+      "lines": 1,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.035,
+      "leading": 1.06,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 2074,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Projects that shipped",
+      "words": 3,
+      "chars": 21,
+      "lines": 2,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.035,
+      "leading": 1.06,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.48,
+      "top": 2915,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "06",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 64,
+      "vw": 16.4,
+      "font": "Poppins",
+      "weight": 300,
+      "tracking": -0.05,
+      "leading": 0.8,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.19,
+      "top": 2931,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "What I can build for you",
+      "words": 6,
+      "chars": 24,
+      "lines": 1,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.035,
+      "leading": 1.06,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 6810,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Start strong",
+      "words": 2,
+      "chars": 12,
+      "lines": 1,
+      "size": 28.8,
+      "vw": 7.4,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.03,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.72,
+      "top": 7022,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Stand out",
+      "words": 2,
+      "chars": 9,
+      "lines": 1,
+      "size": 28.8,
+      "vw": 7.4,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.03,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.72,
+      "top": 7480,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Scale up",
+      "words": 2,
+      "chars": 8,
+      "lines": 1,
+      "size": 28.8,
+      "vw": 7.4,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.03,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.72,
+      "top": 7939,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Trusted by teams, loved by clients",
+      "words": 6,
+      "chars": 34,
+      "lines": 2,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.035,
+      "leading": 1.06,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 8528,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Learning never ships last",
+      "words": 4,
+      "chars": 25,
+      "lines": 2,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.035,
+      "leading": 1.06,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 10034,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Let's create something exceptional.",
+      "words": 4,
+      "chars": 35,
+      "lines": 3,
+      "size": 41.6,
+      "vw": 10.7,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.045,
+      "leading": 1.04,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 11074,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "hssnkhn57@gmail.com h s s n k h n 5 7 @ g m a i l . c o m h s s n k h n 5 7 @ g m a i l . c o m",
+      "words": 39,
+      "chars": 95,
+      "lines": 1,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.045,
+      "leading": 1.04,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.91,
+      "top": 13626,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 14,
+     "maxLines": 4,
+     "over2Lines": 3,
+     "statements": 1,
+     "centered": 2,
+     "medianWords": 4,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Poppins",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      18,
+      21,
+      24,
+      29,
+      30,
+      32,
+      42,
+      64,
+      105
+     ],
+     "sizeCount": 14,
+     "notLoaded": [],
+     "body": {
+      "font": "Poppins",
+      "size": 16,
+      "leading": 1.6,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 7.2
+     },
+     "measureChars": 45,
+     "max": {
+      "size": 105.3,
+      "vw": 27,
+      "font": "Poppins",
+      "text": "Hassan"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 22,
+     "microLabelShare": 0.064,
+     "microSamples": [
+      "About",
+      "(01)",
+      "Based in",
+      "Focus",
+      "Open to",
+      "Skills"
+     ],
+     "upperShare": 0.07,
+     "centerShare": 0.03,
+     "smallText": 9
+    },
+    "eyebrows": [
+     {
+      "text": "Skills",
+      "above": "My toolkit, in orbit",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12.8,
+      "top": 2033
+     },
+     {
+      "text": "Selected work",
+      "above": "Projects that shipped",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12.8,
+      "top": 2874
+     },
+     {
+      "text": "Services",
+      "above": "What I can build for you",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12.8,
+      "top": 6770
+     },
+     {
+      "text": "Landing pages",
+      "above": "Start strong",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 6994
+     },
+     {
+      "text": "Animated experiences",
+      "above": "Stand out",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 7453
+     },
+     {
+      "text": "Web applications",
+      "above": "Scale up",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 7912
+     },
+     {
+      "text": "Testimonials",
+      "above": "Trusted by teams, loved by clients",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12.8,
+      "top": 8488
+     },
+     {
+      "text": "Education",
+      "above": "Learning never ships last",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12.8,
+      "top": 9994
+     },
+     {
+      "text": "Contact",
+      "above": "Let's create something exceptional.",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12.8,
+      "top": 11025
+     }
+    ],
+    "numbered": [
+     {
+      "text": "(01)",
+      "size": 12.8,
+      "top": 1018
+     },
+     {
+      "text": "(02)",
+      "size": 12.8,
+      "top": 2033
+     },
+     {
+      "text": "(03)",
+      "size": 12.8,
+      "top": 2874
+     },
+     {
+      "text": "06",
+      "size": 64,
+      "top": 2931
+     },
+     {
+      "text": "(01)",
+      "size": 12.8,
+      "top": 3651
+     },
+     {
+      "text": "(02)",
+      "size": 12.8,
+      "top": 4259
+     },
+     {
+      "text": "(03)",
+      "size": 12.8,
+      "top": 4826
+     },
+     {
+      "text": "(04)",
+      "size": 12.8,
+      "top": 5434
+     },
+     {
+      "text": "(05)",
+      "size": 12.8,
+      "top": 6001
+     },
+     {
+      "text": "(06)",
+      "size": 12.8,
+      "top": 6609
+     },
+     {
+      "text": "(04)",
+      "size": 12.8,
+      "top": 6770
+     },
+     {
+      "text": "(05)",
+      "size": 12.8,
+      "top": 8488
+     }
+    ],
+    "color": {
+     "bodyBg": "#0c0b0a",
+     "bodyBgHsl": {
+      "h": 30,
+      "s": 0.09,
+      "l": 0.04
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#0c0b0a",
+       "top": 0,
+       "hsl": {
+        "h": 30,
+        "s": 0.09,
+        "l": 0.04
+       }
+      },
+      {
+       "color": "#ff6b1a",
+       "top": 13586,
+       "hsl": {
+        "h": 21,
+        "s": 1,
+        "l": 0.55
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#9d9c98",
+       "share": 0.45
+      },
+      {
+       "color": "#f3f2ef",
+       "share": 0.36
+      },
+      {
+       "color": "#141414",
+       "share": 0.12
+      },
+      {
+       "color": "#131313",
+       "share": 0.03
+      },
+      {
+       "color": "#ff6b1a",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#ff6b1a",
+      "hsl": {
+       "h": 21,
+       "s": 1,
+       "l": 0.55
+      },
+      "fg": "#141414"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 7,
+     "inHero": 2,
+     "radius": "pill",
+     "height": 48,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Let’s talk L e t ’ s t a l k L e t ’ s t",
+      "See my work"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 6,
+     "shadowOverlay": 0,
+     "shadowSamples": [
+      "div.tgrid__media → rgba(0, 0, 0, 0.45) 0px 24px 90px 0px",
+      "div.tgrid__media → rgba(0, 0, 0, 0.45) 0px 24px 90px 0px",
+      "div.tgrid__media → rgba(0, 0, 0, 0.45) 0px 24px 90px 0px",
+      "div.tgrid__media → rgba(0, 0, 0, 0.45) 0px 24px 90px 0px"
+     ],
+     "gradients": 3,
+     "scrims": 0,
+     "gradientSamples": [
+      "div.backdrop → radial-gradient(60% 40% at 25% 30%, rgba(255, 107, 26, 0.12), rgba(0, 0, 0, 0) 70%), radial-gradient(50% 45% a",
+      "div.hero__glow → radial-gradient(circle, rgba(255, 107, 26, 0.2), rgba(0, 0, 0, 0) 58%)",
+      "article.service.card → linear-gradient(160deg, rgb(255, 127, 48), rgb(240, 86, 10))"
+     ],
+     "gradientText": 0,
+     "hairlines": 3,
+     "hairlineSamples": [
+      "div.marquee 390px",
+      "ul.facts 358px",
+      "div.finale__row 358px"
+     ],
+     "outlinedBoxes": 13,
+     "dashed": 0,
+     "blurred": 7,
+     "roundedBoxes": 17,
+     "boxRadius": 22,
+     "squareMedia": 5,
+     "roundedMedia": 6,
+     "mediaRadius": 22,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "canvas",
+      "ratio": 1
+     },
+     {
+      "type": "canvas",
+      "ratio": 1
+     },
+     {
+      "type": "img",
+      "ratio": 0.48
+     },
+     {
+      "type": "canvas",
+      "ratio": 0.48
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": true,
+     "height": 56,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "poppins",
+     "poppins fallback"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 13975,
+    "margins": {
+     "left": 16,
+     "right": 19
+    },
+    "sections": [
+     {
+      "sel": "section.hero",
+      "tag": "section",
+      "top": 0,
+      "height": 844,
+      "words": 37,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "Frontend & Creative Developer",
+       "size": 24,
+       "tag": "h1"
+      },
+      "left": 16,
+      "right": 17,
+      "textLeft": 16,
+      "textRight": 17,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#about.about.container",
+      "tag": "section",
+      "top": 930,
+      "height": 1015,
+      "words": 72,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Crafting",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 22,
+      "textLeft": 16,
+      "textRight": 22,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#skills.skills.section",
+      "tag": "section",
+      "top": 1945,
+      "height": 841,
+      "words": 22,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "My toolkit, in orbit",
+       "size": 32,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 63,
+      "textLeft": 16,
+      "textRight": 63,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.container.work__head",
+      "tag": "div",
+      "top": 2874,
+      "height": 148,
+      "words": 7,
+      "media": 0,
+      "middle": 97,
+      "heading": {
+       "text": "06",
+       "size": 64,
+       "tag": "p"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 16,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "ul.tgrid",
+      "tag": "ul",
+      "top": 3023,
+      "height": 3571,
+      "words": 57,
+      "media": 5,
+      "middle": 33,
+      "heading": {
+       "text": "ROX",
+       "size": 21,
+       "tag": "h3"
+      },
+      "left": 0,
+      "right": 0,
+      "textLeft": -251,
+      "textRight": -252,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "header.section-head",
+      "tag": "header",
+      "top": 6770,
+      "height": 146,
+      "words": 22,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "What I can build for you",
+       "size": 32,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 19,
+      "textLeft": 16,
+      "textRight": 19,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.services",
+      "tag": "div",
+      "top": 6955,
+      "height": 1356,
+      "words": 96,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Start strong",
+       "size": 29,
+       "tag": "h3"
+      },
+      "left": 55,
+      "right": 59,
+      "textLeft": 55,
+      "textRight": 59,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "header.section-head",
+      "tag": "header",
+      "top": 8488,
+      "height": 179,
+      "words": 22,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Trusted by teams,",
+       "size": 32,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 33,
+      "textLeft": 16,
+      "textRight": 33,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.quotes",
+      "tag": "div",
+      "top": 8707,
+      "height": 1111,
+      "words": 92,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 45,
+      "right": 47,
+      "textLeft": 45,
+      "textRight": 47,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.container.section",
+      "tag": "section",
+      "top": 9906,
+      "height": 811,
+      "words": 6,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Learning never",
+       "size": 32,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 151,
+      "textLeft": 16,
+      "textRight": 151,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.zoom.is-zoom",
+      "tag": "section",
+      "top": 10717,
+      "height": 2869,
+      "words": 10,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Let's create something",
+       "size": 42,
+       "tag": "h2"
+      },
+      "left": 79,
+      "right": 79,
+      "textLeft": 79,
+      "textRight": 79,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": true
+     },
+     {
+      "sel": "footer.finale",
+      "tag": "footer",
+      "top": 13586,
+      "height": 389,
+      "words": 17,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 16,
+      "right": 130,
+      "textLeft": 16,
+      "textRight": 130,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 3004,
+      "height": 292
+     },
+     {
+      "top": 10144,
+      "height": 572
+     }
+    ],
+    "h1s": [
+     {
+      "text": "Muhammad Hassan Khan, Frontend & Creative Developer based in Karachi",
+      "size": 24,
+      "top": 156,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 16,
+      "n": 19
+     },
+     {
+      "x": 43,
+      "n": 5
+     },
+     {
+      "x": 55,
+      "n": 4
+     },
+     {
+      "x": 82,
+      "n": 2
+     },
+     {
+      "x": 140,
+      "n": 1
+     },
+     {
+      "x": 172,
+      "n": 1
+     },
+     {
+      "x": 195,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 33,
+    "bodySize": 16,
+    "stage": true,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "FAIL",
+   "id": "headline-lines",
+   "width": 1440,
+   "message": "3 headline(s) wrap past two lines at 1440px: \"Muhammad Hassan Khan, Frontend & Creative Develo\" → 4 lines (10 words, 37.4px); \"Crafting fast, animated & intuitive web experien\" → 3 lines (10 words, 57.6px); \"Let's create something exceptional.\" → 3 lines (4 words, 109.4px)",
+   "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 36px or less."
+  },
+  {
+   "level": "FAIL",
+   "id": "eyebrow",
+   "width": 1440,
+   "message": "16 eyebrow/kicker label(s) above headings: \"Available for work\" (pill) above \"Muhammad Hassan Khan, Frontend & Creativ\"; \"Skills\" above \"My toolkit, in orbit\"; \"Selected work\" above \"Projects that shipped\"; \"View project\" above \"ROX\"; \"View project\" above \"ONIC\"",
+   "fix": "Delete them. If the label carried real information, fold it into the headline or the supporting sentence.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "numbering",
+   "width": 1440,
+   "message": "Decorative index numbers: \"(01)\", \"(02)\", \"(03)\", \"06\", \"(01)\", \"(02)\"",
+   "fix": "Remove them. If order truly matters, write it into the words (\"First, …\") or use a real <ol>.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "micro-label",
+   "width": 1440,
+   "message": "22 tiny uppercase letter-spaced labels (e.g. \"About\", \"(01)\", \"Based in\", \"Focus\").",
+   "fix": "Use sentence-case text at a readable size, or delete the label.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "gradient",
+   "width": 1440,
+   "message": "3 gradient fill(s): div.backdrop → radial-gradient(60% 40% at 25% 30%, rgba(255, 107, 26, 0.12), rgba(0, 0, 0, 0) 70%), radial-gradient(50% 45% a | div.hero__glow → radial-gradient(circle, rgba(255, 107, 26, 0.2), rgba(0, 0, 0, 0) 58%) | article.service.card → linear-gradient(160deg, rgb(255, 127, 48), rgb(240, 86, 10))",
+   "fix": "Use a flat colour or a real image. The only gradient allowed by default is a neutral scrim over a photo for legibility.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "shadow",
+   "width": 1440,
+   "message": "6 box-shadow(s) on elements at rest: div.tgrid__media → rgba(0, 0, 0, 0.45) 0px 24px 90px 0px | div.tgrid__media → rgba(0, 0, 0, 0.45) 0px 24px 90px 0px | div.tgrid__media → rgba(0, 0, 0, 0.45) 0px 24px 90px 0px",
+   "fix": "Remove. Separate surfaces with a tone step or space. Shadows are for things that really float (menus, dialogs, sticky bars).",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "hairline",
+   "width": 1440,
+   "message": "7 thin rule(s)/divider line(s): div.marquee 1440px | ul.facts 758px | li 1224px | li 1224px",
+   "fix": "Delete. Separate with space, a tone change, or scale. Lines are only for real tables and form fields.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "outlined-box",
+   "width": 1440,
+   "message": "14 boxes drawn with a 1px outline.",
+   "fix": "Define a surface by its fill (one tone step from the page) or leave the content unboxed.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "glass",
+   "width": 1440,
+   "message": "9 backdrop-blur surfaces.",
+   "fix": "One blurred sticky bar at most; glass cards are a tell.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "icon-cards",
+   "width": 1440,
+   "message": "2 row(s) of identical cards each topped with a small icon (3, 4 cards).",
+   "fix": "Replace with one composed section from the direction: a narrative split, a list set in large type, or real imagery per item.",
+   "alsoAt": [
+    768
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "17 different font sizes (12, 13, 14, 15, 16, 18, 24, 28, 29, 37, 38, 58, 64, 104, 109, 158, 317).",
+   "fix": "A page needs about five: display, heading, lead, body, small.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-poster",
+   "width": 1440,
+   "message": "1 clip(s) without a poster.",
+   "fix": "Give every clip a poster frame: in the study of 100 Sites of the Day only 31% had one, and the blank or grey boxes before the clips played were recorded as faults (references/imagery.md §11)."
+  },
+  {
+   "level": "FAIL",
+   "id": "small-text",
+   "width": 1440,
+   "message": "11 text blocks under 13px.",
+   "fix": "Nothing meant to be read goes below 13px.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "off-centre",
+   "width": 1440,
+   "message": "The margins differ: 90px on the left, 51px on the right, at 1440px.",
+   "fix": "Put the navigation and the content on one pair of margins; check for padding on one side only, a scrollbar gutter, or a header on another inset than the page."
+  },
+  {
+   "level": "FAIL",
+   "id": "edge-text",
+   "width": 1440,
+   "message": "1 text block(s) sit within 16px of the screen edge: \"Frontend · Responsive\" (11px from the right)",
+   "fix": "Keep text inside the page margin (16–32px or more). Only display type deliberately bled past the edge may touch it."
+  },
+  {
+   "level": "WARN",
+   "id": "ragged-edges",
+   "width": 1440,
+   "message": "Left-aligned text starts at 12 different lines (108px, 574px, 48px, 137px, 562px, 90px, 448px); the three most used hold only 43% of it.",
+   "fix": "Pick two or three anchor lines from the grid and start every heading and paragraph on one of them."
+  },
+  {
+   "level": "WARN",
+   "id": "pinned-over-picture",
+   "width": 1440,
+   "message": "Pinned large text slides across pictures while the page scrolls: \"Let's create something exceptional.\" (screen 11, 100% over a picture)",
+   "fix": "Jurors read a pinned title crossing drawings or photographs as a collision. Keep the pictures in the column the title does not occupy, or unpin it.",
+   "alsoAt": [
+    768
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "headline-lines",
+   "width": 768,
+   "message": "1 headline(s) wrap past two lines at 768px: \"Let's create something exceptional.\" → 3 lines (4 words, 58.4px)",
+   "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 32px or less."
+  },
+  {
+   "level": "WARN",
+   "id": "small-title",
+   "width": 768,
+   "message": "The h1 is 24px (\"Muhammad Hassan Khan, Frontend & Creative Develope\").",
+   "fix": "Set the title at display size, or make the large text of the first screen the h1.",
+   "alsoAt": [
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "headline-lines",
+   "width": 390,
+   "message": "3 headline(s) wrap past two lines at 390px: \"Muhammad Hassan Khan, Frontend & Creative Develo\" → 4 lines (10 words, 24px); \"Crafting fast, animated & intuitive web experien\" → 4 lines (10 words, 30.4px); \"Let's create something exceptional.\" → 3 lines (4 words, 41.6px)",
+   "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 24px or less."
+  },
+  {
+   "level": "WARN",
+   "id": "blank-gap",
+   "width": 390,
+   "message": "1 stretch(es) of the page hold nothing at all: 572px at 10144px (the screen is 844px tall).",
+   "fix": "A fixed picture layer covers the screen here, so the DOM cannot tell whether the stretch is empty: check the screenshots. Close the gap: a section gap is 120–240px on desktop and 72–112px on a phone. Look for a min-height: 100vh on a short section, an empty grid row, a hidden element still holding its space, or a reveal that never fired. A deliberate rest is a placed picture or colour field, not nothing."
+  },
+  {
+   "level": "FAIL",
+   "id": "reduced-hidden",
+   "width": 1440,
+   "message": "With reduced motion requested, 7 text block(s) on the first screen stay invisible: \"About\", \"Skills\", \"Work\", \"Services\"",
+   "fix": "Put every hidden starting state inside @media (prefers-reduced-motion: no-preference); the reduced page is the finished page (references/motion.md §8)."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "D:\\Portfolio\\.taste-skill\\before\\desktop-fold.jpg",
+   "pages": [
+    "D:\\Portfolio\\.taste-skill\\before\\desktop-page-01.jpg",
+    "D:\\Portfolio\\.taste-skill\\before\\desktop-page-02.jpg",
+    "D:\\Portfolio\\.taste-skill\\before\\desktop-page-03.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "D:\\Portfolio\\.taste-skill\\before\\tablet-fold.jpg",
+   "pages": [
+    "D:\\Portfolio\\.taste-skill\\before\\tablet-page-01.jpg",
+    "D:\\Portfolio\\.taste-skill\\before\\tablet-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "D:\\Portfolio\\.taste-skill\\before\\mobile-fold.jpg",
+   "pages": [
+    "D:\\Portfolio\\.taste-skill\\before\\mobile-page-01.jpg",
+    "D:\\Portfolio\\.taste-skill\\before\\mobile-page-02.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

@@ -1,29 +1,32 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { projects, site } from '../../content';
+import { getContent } from '../../lib/cms';
 import Backdrop from '../../components/Backdrop';
 import CaseEffects from '../../components/CaseEffects';
 import FlipText from '../../components/FlipText';
-import { OG_IMAGE, ogBase } from '../../seo';
+import { ogBase } from '../../seo';
 
 export const dynamicParams = false;
-export const generateStaticParams = () => projects.map((p) => ({ slug: p.slug }));
+export const generateStaticParams = async () => (await getContent()).projects.map((p) => ({ slug: p.slug }));
 
 const find = async (params) => {
   const { slug } = await params;
-  return projects.findIndex((p) => p.slug === slug);
+  const content = await getContent();
+  return { ...content, i: content.projects.findIndex((p) => p.slug === slug) };
 };
 
 export async function generateMetadata({ params }) {
-  const p = projects[await find(params)];
+  const { projects, seo, i } = await find(params);
+  const p = projects[i];
   if (!p) return {};
   const title = `${p.title} — Case study`;
   const description = `${p.summary} ${p.kind} for ${p.client}, built with ${p.tags.join(', ')}.`;
-  // Landscape live screenshot when we have one; otherwise the site-wide preview image.
-  // JPEG (widest support across LinkedIn, WhatsApp, X…), cropped from the live desktop screenshot.
-  const image = p.shots.desktop
-    ? { url: p.shots.desktop.replace('/shots/', '/og/').replace('-desktop.webp', '.jpg'), width: 1200, height: 630, alt: `${p.title} website` }
-    : OG_IMAGE;
+  // The project's share image from the CMS; else the JPEG cropped from a local desktop screenshot
+  // (widest support across LinkedIn, WhatsApp, X…); else the site-wide preview image.
+  const image = p.og
+    || (p.shots.desktop?.startsWith('/')
+      ? { url: p.shots.desktop.replace('/shots/', '/og/').replace('-desktop.webp', '.jpg'), width: 1200, height: 630, alt: `${p.title} website` }
+      : seo.ogImage);
   return {
     title,
     description,
@@ -43,7 +46,7 @@ const Arrow = ({ deg = 0 }) => (
 const pad = (n) => String(n).padStart(2, '0');
 
 export default async function CaseStudy({ params }) {
-  const i = await find(params);
+  const { projects, site, i } = await find(params);
   if (i < 0) notFound();
   const p = projects[i];
   const next = projects[(i + 1) % projects.length];

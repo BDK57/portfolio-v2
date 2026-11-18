@@ -1,0 +1,1998 @@
+{
+ "url": "work/rox.html",
+ "at": "2026-10-24T13:20:27.238Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 6,
+   "filled": [
+    0.43,
+    0.57,
+    0.29,
+    0.47,
+    0.55,
+    0.39
+   ],
+   "motion": {
+    "elements": 109,
+    "css": 0,
+    "transitions": 1,
+    "scripted": 108,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 4799,
+     "screens": 5.3,
+     "words": 299,
+     "img": 4,
+     "video": 0,
+     "canvas": 0,
+     "svg": 4,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "rox-desktop.webp",
+      "rox.webp",
+      "rox-mobile.webp",
+      "onic.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "ROX : case study",
+     "words": 4,
+     "chars": 16,
+     "lines": 1,
+     "size": 158.4,
+     "vw": 11,
+     "font": "Poppins",
+     "weight": 500,
+     "tracking": -0.055,
+     "leading": 0.95,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.21,
+     "top": 162,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "ROX : case study",
+     "words": 4,
+     "lines": 1,
+     "size": 158.4,
+     "font": "Poppins"
+    },
+    "headings": [
+     {
+      "text": "ROX : case study",
+      "words": 4,
+      "chars": 16,
+      "lines": 1,
+      "size": 158.4,
+      "vw": 11,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.055,
+      "leading": 0.95,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.21,
+      "top": 162,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "A loud, animated home for Jazz’s youth brand: data packages, city-wide deals and nationwide events in one place.",
+      "words": 18,
+      "chars": 112,
+      "lines": 3,
+      "size": 34.6,
+      "vw": 2.4,
+      "font": "Poppins",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1.3,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.6,
+      "top": 340,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Overview",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 34.6,
+      "vw": 2.4,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.26,
+      "top": 1741,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "ROX is Jazz’s youth-focused digital brand, pitched as “more than a network”. Beyond fast data, it bundles transparent “Vibe” packages with lifestyle perks: discounts in the ROX Vault, brand deals on R",
+      "words": 43,
+      "chars": 268,
+      "lines": 7,
+      "size": 34.6,
+      "vw": 2.4,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.3,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.53,
+      "top": 1741,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "What makes it work",
+      "words": 4,
+      "chars": 18,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.035,
+      "leading": 1.06,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.85,
+      "top": 2321,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Vibe package cards",
+      "words": 3,
+      "chars": 18,
+      "lines": 1,
+      "size": 34.6,
+      "vw": 2.4,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.39,
+      "top": 2469,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Vault & High Street sliders",
+      "words": 5,
+      "chars": 27,
+      "lines": 1,
+      "size": 34.6,
+      "vw": 2.4,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.4,
+      "top": 2469,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "ROX Life events",
+      "words": 3,
+      "chars": 15,
+      "lines": 1,
+      "size": 34.6,
+      "vw": 2.4,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.39,
+      "top": 2638,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Guided onboarding",
+      "words": 2,
+      "chars": 17,
+      "lines": 1,
+      "size": 34.6,
+      "vw": 2.4,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.4,
+      "top": 2638,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Across every screen",
+      "words": 3,
+      "chars": 19,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.035,
+      "leading": 1.06,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.85,
+      "top": 2904,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "ONIC O N I C O N I C",
+      "words": 9,
+      "chars": 20,
+      "lines": 1,
+      "size": 112,
+      "vw": 7.8,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.76,
+      "top": 4311,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "hssnkhn57@gmail.com h s s n k h n 5 7 @ g m a i l . c o m h s s n k h n 5 7 @ g m a i l . c o m",
+      "words": 39,
+      "chars": 95,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.04,
+      "leading": 1.6,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.49,
+      "top": 4656,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 12,
+     "maxLines": 7,
+     "over2Lines": 0,
+     "statements": 2,
+     "centered": 0,
+     "medianWords": 4,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Poppins",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      14,
+      15,
+      17,
+      35,
+      64,
+      112,
+      158
+     ],
+     "sizeCount": 7,
+     "notLoaded": [],
+     "body": {
+      "font": "Poppins",
+      "size": 17,
+      "leading": 1.6,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 16.7
+     },
+     "measureChars": 70,
+     "max": {
+      "size": 158.4,
+      "vw": 11,
+      "font": "Poppins",
+      "text": "ROX"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.01,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [
+     {
+      "text": "Next project",
+      "above": "ONIC O N I C O N I C",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 14.4,
+      "top": 4274
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f4f4f2",
+     "bodyBgHsl": {
+      "h": 60,
+      "s": 0.08,
+      "l": 0.95
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#e9e8e4",
+       "top": 758,
+       "hsl": {
+        "h": 48,
+        "s": 0.1,
+        "l": 0.9
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#141414",
+       "share": 0.6
+      },
+      {
+       "color": "#5c5a56",
+       "share": 0.38
+      },
+      {
+       "color": "#b8460f",
+       "share": 0.03
+      }
+     ],
+     "button": {
+      "bg": "#ff6b1a",
+      "hsl": {
+       "h": 21,
+       "s": 1,
+       "l": 0.55
+      },
+      "fg": "#141414"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 2,
+     "radius": "pill",
+     "height": 44,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Let’s talk L e t ’ s t a l k L e t ’ s t",
+      "Visit live site"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 5,
+     "roundedBoxes": 4,
+     "boxRadius": 22,
+     "squareMedia": 0,
+     "roundedMedia": 4,
+     "mediaRadius": 22,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.12
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": true,
+     "height": 72,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "poppins",
+     "poppins fallback"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 4799,
+    "margins": {
+     "left": 108,
+     "right": 108
+    },
+    "sections": [
+     {
+      "sel": "section.case-hero.container",
+      "tag": "section",
+      "top": 0,
+      "height": 662,
+      "words": 37,
+      "media": 0,
+      "middle": 73,
+      "heading": {
+       "text": "ROX",
+       "size": 158,
+       "tag": "h1"
+      },
+      "left": 108,
+      "right": 274,
+      "textLeft": 108,
+      "textRight": 274,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.case-visual.container",
+      "tag": "section",
+      "top": 758,
+      "height": 823,
+      "words": 1,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 209,
+      "right": 1158,
+      "textLeft": 209,
+      "textRight": 1158,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.case-overview.container",
+      "tag": "section",
+      "top": 1581,
+      "height": 580,
+      "words": 74,
+      "media": 0,
+      "middle": 311,
+      "heading": {
+       "text": "Overview",
+       "size": 35,
+       "tag": "h2"
+      },
+      "left": 108,
+      "right": 140,
+      "textLeft": 108,
+      "textRight": 140,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.container.case-section",
+      "tag": "section",
+      "top": 2161,
+      "height": 584,
+      "words": 81,
+      "media": 0,
+      "middle": 60,
+      "heading": {
+       "text": "What makes it work",
+       "size": 64,
+       "tag": "h2"
+      },
+      "left": 108,
+      "right": 121,
+      "textLeft": 108,
+      "textRight": 121,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.container.case-section",
+      "tag": "section",
+      "top": 2744,
+      "height": 1306,
+      "words": 3,
+      "media": 2,
+      "middle": 135,
+      "heading": {
+       "text": "Across every screen",
+       "size": 64,
+       "tag": "h2"
+      },
+      "left": 108,
+      "right": 195,
+      "textLeft": 108,
+      "textRight": 729,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.container.case-section",
+      "tag": "section",
+      "top": 4050,
+      "height": 478,
+      "words": 5,
+      "media": 0,
+      "middle": 98,
+      "heading": null,
+      "left": 172,
+      "right": 930,
+      "textLeft": 172,
+      "textRight": 1083,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.case-foot.container",
+      "tag": "footer",
+      "top": 4528,
+      "height": 270,
+      "words": 4,
+      "media": 0,
+      "middle": 5,
+      "heading": null,
+      "left": 1065,
+      "right": 108,
+      "textLeft": 1065,
+      "textRight": 108,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "ROX : case study",
+      "size": 158,
+      "top": 162,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 108,
+      "n": 5
+     },
+     {
+      "x": 574,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 7,
+    "bodySize": 17,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.14,
+    "voidBox": {
+     "x": 420,
+     "y": 120,
+     "w": 1020,
+     "h": 180
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 4,
+   "filled": [
+    0.56,
+    0.33,
+    0.69,
+    0.59
+   ],
+   "motion": {
+    "elements": 109,
+    "css": 0,
+    "transitions": 1,
+    "scripted": 108,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 3379,
+     "screens": 3.3,
+     "words": 299,
+     "img": 4,
+     "video": 0,
+     "canvas": 0,
+     "svg": 4,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "rox-desktop.webp",
+      "rox.webp",
+      "rox-mobile.webp",
+      "onic.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "ROX : case study",
+     "words": 4,
+     "chars": 16,
+     "lines": 1,
+     "size": 84.5,
+     "vw": 11,
+     "font": "Poppins",
+     "weight": 500,
+     "tracking": -0.055,
+     "leading": 0.95,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.21,
+     "top": 184,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "ROX : case study",
+     "words": 4,
+     "lines": 1,
+     "size": 84.5,
+     "font": "Poppins"
+    },
+    "headings": [
+     {
+      "text": "ROX : case study",
+      "words": 4,
+      "chars": 16,
+      "lines": 1,
+      "size": 84.5,
+      "vw": 11,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.055,
+      "leading": 0.95,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.21,
+      "top": 184,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "What makes it work",
+      "words": 4,
+      "chars": 18,
+      "lines": 1,
+      "size": 38.4,
+      "vw": 5,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.035,
+      "leading": 1.06,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 1687,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Across every screen",
+      "words": 3,
+      "chars": 19,
+      "lines": 1,
+      "size": 38.4,
+      "vw": 5,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.035,
+      "leading": 1.06,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 2179,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "ONIC O N I C O N I C",
+      "words": 9,
+      "chars": 20,
+      "lines": 1,
+      "size": 61.4,
+      "vw": 8,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.82,
+      "top": 3013,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "hssnkhn57@gmail.com h s s n k h n 5 7 @ g m a i l . c o m h s s n k h n 5 7 @ g m a i l . c o m",
+      "words": 39,
+      "chars": 95,
+      "lines": 1,
+      "size": 38.4,
+      "vw": 5,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.04,
+      "leading": 1.6,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.56,
+      "top": 3234,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 5,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 9,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Poppins",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      14,
+      15,
+      17,
+      24,
+      38,
+      61,
+      85
+     ],
+     "sizeCount": 7,
+     "notLoaded": [],
+     "body": {
+      "font": "Poppins",
+      "size": 17,
+      "leading": 1.6,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 16.7
+     },
+     "measureChars": 59,
+     "max": {
+      "size": 84.5,
+      "vw": 11,
+      "font": "Poppins",
+      "text": "ROX"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.01,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [
+     {
+      "text": "Next project",
+      "above": "ONIC O N I C O N I C",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 14.4,
+      "top": 2976
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f4f4f2",
+     "bodyBgHsl": {
+      "h": 60,
+      "s": 0.08,
+      "l": 0.95
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#e9e8e4",
+       "top": 659,
+       "hsl": {
+        "h": 48,
+        "s": 0.1,
+        "l": 0.9
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#141414",
+       "share": 0.6
+      },
+      {
+       "color": "#5c5a56",
+       "share": 0.38
+      },
+      {
+       "color": "#b8460f",
+       "share": 0.03
+      }
+     ],
+     "button": {
+      "bg": "#ff6b1a",
+      "hsl": {
+       "h": 21,
+       "s": 1,
+       "l": 0.55
+      },
+      "fg": "#141414"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 2,
+     "radius": "pill",
+     "height": 44,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Let’s talk L e t ’ s t a l k L e t ’ s t",
+      "Visit live site"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 5,
+     "roundedBoxes": 4,
+     "boxRadius": 22,
+     "squareMedia": 0,
+     "roundedMedia": 4,
+     "mediaRadius": 22,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.29
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": true,
+     "height": 72,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "poppins",
+     "poppins fallback"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 3379,
+    "margins": {
+     "left": 31,
+     "right": 43
+    },
+    "sections": [
+     {
+      "sel": "section.case-hero.container",
+      "tag": "section",
+      "top": 0,
+      "height": 598,
+      "words": 37,
+      "media": 0,
+      "middle": 30,
+      "heading": {
+       "text": "ROX",
+       "size": 84,
+       "tag": "h1"
+      },
+      "left": 31,
+      "right": 67,
+      "textLeft": 31,
+      "textRight": 67,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.case-visual.container",
+      "tag": "section",
+      "top": 659,
+      "height": 499,
+      "words": 1,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 132,
+      "right": 563,
+      "textLeft": 132,
+      "textRight": 563,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.case-overview.container",
+      "tag": "section",
+      "top": 1158,
+      "height": 432,
+      "words": 74,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Overview",
+       "size": 24,
+       "tag": "h2"
+      },
+      "left": 31,
+      "right": 43,
+      "textLeft": 31,
+      "textRight": 43,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.container.case-section",
+      "tag": "section",
+      "top": 1591,
+      "height": 493,
+      "words": 81,
+      "media": 0,
+      "middle": 19,
+      "heading": {
+       "text": "What makes it work",
+       "size": 38,
+       "tag": "h2"
+      },
+      "left": 31,
+      "right": 48,
+      "textLeft": 31,
+      "textRight": 48,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.container.case-section",
+      "tag": "section",
+      "top": 2083,
+      "height": 758,
+      "words": 3,
+      "media": 2,
+      "middle": 43,
+      "heading": {
+       "text": "Across every screen",
+       "size": 38,
+       "tag": "h2"
+      },
+      "left": 31,
+      "right": 43,
+      "textLeft": 31,
+      "textRight": 376,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.container.case-section",
+      "tag": "section",
+      "top": 2842,
+      "height": 312,
+      "words": 5,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 69,
+      "right": 514,
+      "textLeft": 69,
+      "textRight": 514,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.case-foot.container",
+      "tag": "footer",
+      "top": 3154,
+      "height": 225,
+      "words": 4,
+      "media": 0,
+      "middle": 5,
+      "heading": null,
+      "left": 49,
+      "right": 452,
+      "textLeft": 49,
+      "textRight": 452,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "ROX : case study",
+      "size": 84,
+      "top": 184,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 31,
+      "n": 7
+     }
+    ],
+    "leftBlocks": 7,
+    "bodySize": 17,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 6,
+   "filled": [
+    0.39,
+    0.61,
+    0.43,
+    0.87,
+    0.57,
+    0.56
+   ],
+   "motion": {
+    "elements": 109,
+    "css": 0,
+    "transitions": 1,
+    "scripted": 108,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 4266,
+     "screens": 5.1,
+     "words": 299,
+     "img": 4,
+     "video": 0,
+     "canvas": 0,
+     "svg": 4,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "rox-desktop.webp",
+      "rox.webp",
+      "rox-mobile.webp",
+      "onic.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "ROX : case study",
+     "words": 4,
+     "chars": 16,
+     "lines": 1,
+     "size": 51.2,
+     "vw": 13.1,
+     "font": "Poppins",
+     "weight": 500,
+     "tracking": -0.055,
+     "leading": 0.95,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.25,
+     "top": 152,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "ROX : case study",
+     "words": 4,
+     "lines": 1,
+     "size": 51.2,
+     "font": "Poppins"
+    },
+    "headings": [
+     {
+      "text": "ROX : case study",
+      "words": 4,
+      "chars": 16,
+      "lines": 1,
+      "size": 51.2,
+      "vw": 13.1,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.055,
+      "leading": 0.95,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.25,
+      "top": 152,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "A loud, animated home for Jazz’s youth brand: data packages, city-wide deals and nationwide events in one place.",
+      "words": 18,
+      "chars": 112,
+      "lines": 5,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Poppins",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1.3,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 229,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Overview",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 1137,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "What makes it work",
+      "words": 4,
+      "chars": 18,
+      "lines": 1,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.035,
+      "leading": 1.06,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 1730,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Vibe package cards",
+      "words": 3,
+      "chars": 18,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 1812,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Vault & High Street sliders",
+      "words": 5,
+      "chars": 27,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 1973,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "ROX Life events",
+      "words": 3,
+      "chars": 15,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 2133,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Guided onboarding",
+      "words": 2,
+      "chars": 17,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 2293,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Across every screen",
+      "words": 3,
+      "chars": 19,
+      "lines": 1,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.035,
+      "leading": 1.06,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 2510,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "ONIC O N I C O N I C",
+      "words": 9,
+      "chars": 20,
+      "lines": 1,
+      "size": 41.6,
+      "vw": 10.7,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.75,
+      "top": 3947,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "hssnkhn57@gmail.com h s s n k h n 5 7 @ g m a i l . c o m h s s n k h n 5 7 @ g m a i l . c o m",
+      "words": 39,
+      "chars": 95,
+      "lines": 1,
+      "size": 25.6,
+      "vw": 6.6,
+      "font": "Poppins",
+      "weight": 500,
+      "tracking": -0.04,
+      "leading": 1.6,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.73,
+      "top": 4142,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 11,
+     "maxLines": 5,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 4,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Poppins",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      14,
+      15,
+      17,
+      24,
+      26,
+      32,
+      42,
+      51
+     ],
+     "sizeCount": 8,
+     "notLoaded": [],
+     "body": {
+      "font": "Poppins",
+      "size": 17,
+      "leading": 1.6,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 16.7
+     },
+     "measureChars": 30,
+     "max": {
+      "size": 51.2,
+      "vw": 13.1,
+      "font": "Poppins",
+      "text": "ROX"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.01,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [
+     {
+      "text": "Next project",
+      "above": "ONIC O N I C O N I C",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 14.4,
+      "top": 3910
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f4f4f2",
+     "bodyBgHsl": {
+      "h": 60,
+      "s": 0.08,
+      "l": 0.95
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#e9e8e4",
+       "top": 759,
+       "hsl": {
+        "h": 48,
+        "s": 0.1,
+        "l": 0.9
+       }
+      },
+      {
+       "color": "#1d1b19",
+       "top": 3118,
+       "hsl": {
+        "h": 30,
+        "s": 0.07,
+        "l": 0.11
+       }
+      },
+      {
+       "color": "#000000",
+       "top": 3130,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#141414",
+       "share": 0.6
+      },
+      {
+       "color": "#5c5a56",
+       "share": 0.38
+      },
+      {
+       "color": "#b8460f",
+       "share": 0.03
+      }
+     ],
+     "button": {
+      "bg": "#ff6b1a",
+      "hsl": {
+       "h": 21,
+       "s": 1,
+       "l": 0.55
+      },
+      "fg": "#141414"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 2,
+     "radius": "pill",
+     "height": 44,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Let’s talk L e t ’ s t a l k L e t ’ s t",
+      "Visit live site"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 5,
+     "roundedBoxes": 4,
+     "boxRadius": 22,
+     "squareMedia": 0,
+     "roundedMedia": 4,
+     "mediaRadius": 22,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 2,
+     "fixed": true,
+     "height": 72,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "poppins",
+     "poppins fallback"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 4266,
+    "margins": {
+     "left": 16,
+     "right": 16
+    },
+    "sections": [
+     {
+      "sel": "section.case-hero.container",
+      "tag": "section",
+      "top": 0,
+      "height": 703,
+      "words": 37,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "ROX",
+       "size": 51,
+       "tag": "h1"
+      },
+      "left": 16,
+      "right": 19,
+      "textLeft": 16,
+      "textRight": 19,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.case-visual.container",
+      "tag": "section",
+      "top": 759,
+      "height": 282,
+      "words": 1,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 117,
+      "right": 200,
+      "textLeft": 117,
+      "textRight": 200,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.case-overview.container",
+      "tag": "section",
+      "top": 1041,
+      "height": 593,
+      "words": 74,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Overview",
+       "size": 24,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 32,
+      "textLeft": 16,
+      "textRight": 32,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.container.case-section",
+      "tag": "section",
+      "top": 1634,
+      "height": 779,
+      "words": 81,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "What makes it work",
+       "size": 32,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 21,
+      "textLeft": 16,
+      "textRight": 21,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.container.case-section",
+      "tag": "section",
+      "top": 2414,
+      "height": 1369,
+      "words": 3,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "Across every screen",
+       "size": 32,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 73,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.container.case-section",
+      "tag": "section",
+      "top": 3782,
+      "height": 280,
+      "words": 5,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 48,
+      "right": 157,
+      "textLeft": 48,
+      "textRight": 157,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.case-foot.container",
+      "tag": "footer",
+      "top": 4062,
+      "height": 204,
+      "words": 4,
+      "media": 0,
+      "middle": 5,
+      "heading": null,
+      "left": 34,
+      "right": 89,
+      "textLeft": 34,
+      "textRight": 89,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "ROX : case study",
+      "size": 51,
+      "top": 152,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 16,
+      "n": 7
+     }
+    ],
+    "leftBlocks": 7,
+    "bodySize": 17,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "statement-length",
+   "width": 1440,
+   "message": "1 large-set statement(s) run past 3 lines at 1440px: \"ROX is Jazz’s youth-focused digital bran…\" → 7 lines at 34.6px",
+   "fix": "A statement set large is about 30 words. Cut it, or set the rest as ordinary body text.",
+   "alsoAt": [
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "eyebrow",
+   "width": 1440,
+   "message": "1 eyebrow/kicker label(s) above headings: \"Next project\" above \"ONIC O N I C O N I C\"",
+   "fix": "Delete them. If the label carried real information, fold it into the headline or the supporting sentence.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "glass",
+   "width": 1440,
+   "message": "5 backdrop-blur surfaces.",
+   "fix": "One blurred sticky bar at most; glass cards are a tell.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "D:\\Portfolio\\.taste-skill\\case-light\\desktop-fold.jpg",
+   "pages": [
+    "D:\\Portfolio\\.taste-skill\\case-light\\desktop-page-01.jpg",
+    "D:\\Portfolio\\.taste-skill\\case-light\\desktop-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "D:\\Portfolio\\.taste-skill\\case-light\\tablet-fold.jpg",
+   "pages": [
+    "D:\\Portfolio\\.taste-skill\\case-light\\tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "D:\\Portfolio\\.taste-skill\\case-light\\mobile-fold.jpg",
+   "pages": [
+    "D:\\Portfolio\\.taste-skill\\case-light\\mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

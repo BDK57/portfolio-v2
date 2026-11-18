@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { projects, site } from './content';
+import { getContent } from './lib/cms';
 import Backdrop from './components/Backdrop';
 import FlipText from './components/FlipText';
 
@@ -15,7 +15,8 @@ const Arrow = ({ deg = 0 }) => (
   </svg>
 );
 
-export default function NotFound() {
+export default async function NotFound() {
+  const { projects, site } = await getContent();
   return (
     <>
       <Backdrop />

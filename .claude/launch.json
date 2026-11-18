@@ -1,6 +1,7 @@
 {
   "version": "0.0.1",
   "configurations": [
-    { "name": "portfolio", "runtimeExecutable": "npm", "runtimeArgs": ["run", "dev"], "port": 3000 }
+    { "name": "portfolio", "runtimeExecutable": "npm", "runtimeArgs": ["run", "dev"], "port": 3000 },
+    { "name": "cms", "runtimeExecutable": "npm", "runtimeArgs": ["--prefix", "cms", "run", "develop"], "port": 1337, "url": "http://localhost:1337" }
   ]
 }

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_shared_labels",
+  "info": {
+    "displayName": "Label",
+    "description": "One short line of text"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
