@@ -1,16 +1,21 @@
 import { Poppins } from 'next/font/google';
+import BlurBar from './components/BlurBar';
 import Script from 'next/script';
 import 'lenis/dist/lenis.css';
 import './tailwind.css';
 import './globals.css';
-import { SITE_URL, SITE_TITLE, SITE_DESCRIPTION, OG_IMAGE, ogBase } from './seo';
+import { SITE_URL, ogBase } from './seo';
+import { getContent } from './lib/cms';
 
 const poppins = Poppins({ subsets: ['latin'], weight: ['300', '400', '500', '600'], display: 'swap', variable: '--font' });
 
-export const metadata = {
+// Title, description and share image are editable in the CMS (Site settings), with code defaults.
+export async function generateMetadata() {
+  const { seo } = await getContent();
+  return {
   metadataBase: new URL(SITE_URL),
-  title: { default: SITE_TITLE, template: '%s · Hassan Khan' },
-  description: SITE_DESCRIPTION,
+  title: { default: seo.title, template: '%s · Hassan Khan' },
+  description: seo.description,
   applicationName: 'Hassan Khan Portfolio',
   authors: [{ name: 'Muhammad Hassan Khan', url: SITE_URL }],
   creator: 'Muhammad Hassan Khan',
@@ -22,11 +27,12 @@ export const metadata = {
   ],
   category: 'technology',
   alternates: { canonical: '/' },
-  openGraph: { ...ogBase, url: '/', title: SITE_TITLE, description: SITE_DESCRIPTION, images: [OG_IMAGE] },
-  twitter: { card: 'summary_large_image', title: SITE_TITLE, description: SITE_DESCRIPTION, images: [OG_IMAGE.url] },
+  openGraph: { ...ogBase, url: '/', title: seo.title, description: seo.description, images: [seo.ogImage] },
+  twitter: { card: 'summary_large_image', title: seo.title, description: seo.description, images: [seo.ogImage.url] },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1, 'max-video-preview': -1 } },
   formatDetection: { telephone: false, address: false, email: false },
-};
+  };
+}
 
 export const viewport = { themeColor: '#0c0b0a', colorScheme: 'dark' };
 
@@ -45,6 +51,7 @@ export default function RootLayout({ children }) {
           {"history.scrollRestoration='manual';window.scrollTo(0,0);if(location.pathname==='/'&&!matchMedia('(prefers-reduced-motion: reduce)').matches){document.documentElement.classList.add('intro-lock');window.__introBlock||(window.__introBlock=function(e){if(e.type==='keydown'&&(e.target.closest('input,textarea')||!/^(Space|PageUp|PageDown|ArrowUp|ArrowDown|Home|End)$/.test(e.code)))return;e.preventDefault()});['wheel','touchmove','keydown'].forEach(function(t){addEventListener(t,window.__introBlock,{passive:false})})}"}
         </Script>
         {children}
+        <BlurBar />
       </body>
     </html>
   );

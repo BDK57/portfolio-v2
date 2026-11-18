@@ -1,4 +1,3 @@
-import { site, stack, skills, projects, services, testimonials, credentials } from './content';
 import Effects from './components/Effects';
 import Nav from './components/Nav';
 import Intro from './components/Intro';
@@ -7,6 +6,7 @@ import TiltedGrid from './components/TiltedGrid';
 import Backdrop from './components/Backdrop';
 import HandControl from './components/hand/HandControl';
 import { personJsonLd } from './seo';
+import { getContent } from './lib/cms';
 import CopyEmail from './components/CopyEmail';
 import Clock from './components/Clock';
 import { HeroRipple, SkillBubbles } from './components/Lazy';
@@ -33,8 +33,6 @@ function Button({ href, children, variant = '', ...rest }) {
   );
 }
 
-const mail = (subject) => `mailto:${site.email}?subject=${encodeURIComponent(subject)}`;
-
 function SectionHead({ index, label, title, children }) {
   return (
     <header className="section-head">
@@ -45,7 +43,10 @@ function SectionHead({ index, label, title, children }) {
   );
 }
 
-export default function Home() {
+export default async function Home() {
+  const content = await getContent();
+  const { site, stack, skills, projects, services, testimonials, credentials } = content;
+  const mail = (subject) => `mailto:${site.email}?subject=${encodeURIComponent(subject)}`;
 
   return (
     <>
@@ -56,14 +57,14 @@ export default function Home() {
       <Nav email={site.email} />
 
       {/* Structured data: who this site is about (helps search results and knowledge panels). */}
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd(content)) }} />
       <main id="top">
         {/* ── Hero ─────────────────────────────────────────── */}
         <section className="hero" aria-label="Intro">
           <div className="hero__glow" aria-hidden="true" />
           <div className="hero__portrait" data-hero-portrait>
-            <img src="/hero.webp" alt={`Portrait of ${site.fullName}`} width="1000" height="1000" fetchPriority="high" />
-            <HeroRipple src="/hero.webp" />
+            <img src={site.portrait} alt={`Portrait of ${site.fullName}`} width="1000" height="1000" fetchPriority="high" />
+            <HeroRipple src={site.portrait} />
           </div>
 
           <div className="hero__title">

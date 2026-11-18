@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "skills",
+  "info": {
+    "singularName": "skill",
+    "pluralName": "skills",
+    "displayName": "Skill",
+    "description": "A bubble in the skills section"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "iconSlug": {
+      "type": "string",
+      "required": true,
+      "description": "Logo slug from simpleicons.org, e.g. react, nextdotjs, greensock"
+    },
+    "core": {
+      "type": "boolean",
+      "default": false,
+      "description": "Core skills are drawn as bigger bubbles"
+    },
+    "order": {
+      "type": "integer",
+      "default": 0,
+      "description": "Lower numbers come first on the site"
+    }
+  }
+}

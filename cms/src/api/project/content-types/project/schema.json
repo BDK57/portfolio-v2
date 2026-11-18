@@ -1,0 +1,103 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "singularName": "project",
+    "pluralName": "projects",
+    "displayName": "Project",
+    "description": "A project card and its case study page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true,
+      "description": "Page address: /work/<slug>"
+    },
+    "order": {
+      "type": "integer",
+      "default": 0,
+      "description": "Lower numbers come first on the site"
+    },
+    "kind": {
+      "type": "string",
+      "description": "One line under the card, e.g. Jazz youth brand website"
+    },
+    "cover": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "url": {
+      "type": "string",
+      "description": "Live site link"
+    },
+    "client": {
+      "type": "string"
+    },
+    "industry": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string",
+      "description": "Your role on the project"
+    },
+    "tags": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.label",
+      "description": "Stack tags, e.g. Next.js, GSAP"
+    },
+    "summary": {
+      "type": "text",
+      "description": "The big sentence under the case study title"
+    },
+    "overview": {
+      "type": "text",
+      "description": "Overview paragraphs; leave a blank line between paragraphs"
+    },
+    "highlights": {
+      "type": "component",
+      "repeatable": true,
+      "component": "project.highlight"
+    },
+    "shotDesktop": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ],
+      "description": "Desktop screenshot for the browser frame"
+    },
+    "shotMobile": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ],
+      "description": "Mobile screenshot for the phone frame"
+    },
+    "ogImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ],
+      "description": "Link preview image for this case study, 1200×630"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_project_highlights",
+  "info": {
+    "displayName": "Highlight",
+    "description": "A feature card on the case study page"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "text"
+    }
+  }
+}

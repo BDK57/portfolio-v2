@@ -1,0 +1,92 @@
+{
+  "kind": "singleType",
+  "collectionName": "sites",
+  "info": {
+    "singularName": "site",
+    "pluralName": "sites",
+    "displayName": "Site settings",
+    "description": "Hero, about, contact, tech stack and SEO for the whole site"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "description": "Short name shown huge in the hero, e.g. Hassan"
+    },
+    "fullName": {
+      "type": "string",
+      "required": true
+    },
+    "role": {
+      "type": "string",
+      "required": true,
+      "description": "e.g. Frontend & Creative Developer"
+    },
+    "location": {
+      "type": "string"
+    },
+    "intro": {
+      "type": "text",
+      "description": "The hero paragraph"
+    },
+    "portrait": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "github": {
+      "type": "string"
+    },
+    "linkedin": {
+      "type": "string"
+    },
+    "currentlyTitle": {
+      "type": "string",
+      "description": "Current job title"
+    },
+    "currentlyCompany": {
+      "type": "string"
+    },
+    "aboutHeading": {
+      "type": "string"
+    },
+    "aboutBody": {
+      "type": "text"
+    },
+    "stack": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.label",
+      "description": "Technologies in the scrolling strip under the hero"
+    },
+    "seoTitle": {
+      "type": "string",
+      "description": "Browser tab and search result title"
+    },
+    "seoDescription": {
+      "type": "text",
+      "maxLength": 300,
+      "description": "Search result and link preview description (about 155 characters is ideal)"
+    },
+    "ogImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ],
+      "description": "Link preview image, 1200×630 (1.91:1)"
+    }
+  }
+}

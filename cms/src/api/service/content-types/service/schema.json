@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "services",
+  "info": {
+    "singularName": "service",
+    "pluralName": "services",
+    "displayName": "Service",
+    "description": "A row in \"What I can build for you\""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true,
+      "description": "e.g. Landing pages"
+    },
+    "title": {
+      "type": "string",
+      "description": "e.g. Start strong"
+    },
+    "blurb": {
+      "type": "text"
+    },
+    "points": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.label",
+      "description": "What's included"
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false,
+      "description": "Shown on the orange card"
+    },
+    "order": {
+      "type": "integer",
+      "default": 0,
+      "description": "Lower numbers come first on the site"
+    }
+  }
+}
